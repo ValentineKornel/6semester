@@ -1,0 +1,11 @@
+﻿  UClient.cpp
+D:\Study\university\PSCP\lab11\TServer\UClient\UClient.cpp(10,9): warning C4005: 'INADDR_ANY': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9):
+      see previous definition of 'INADDR_ANY'
+  
+D:\Study\university\PSCP\lab11\TServer\UClient\UClient.cpp(12,9): warning C4005: 'INADDR_BROADCAST': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9):
+      see previous definition of 'INADDR_BROADCAST'
+  
+D:\Study\university\PSCP\lab11\TServer\UClient\UClient.cpp(114,52): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  UClient.vcxproj -> D:\Study\university\PSCP\lab11\TServer\x64\Debug\UClient.exe

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Lab07 - DES</title>
+    <meta charset="utf-8"/>
+
+</head>
+<body>
+<h3 class="text-center mt-4 mb-4">RC4</h3>
+<main>
+    <a href="/bbs">To BBS</a>
+    <h5 class="text-center mt-4">Зашифрование</h5>
+    <div class="container w-25">
+            <form class="w-full" id="enc_form">
+                <div class="form-group">
+                    <label for="input">Введите текст</label>
+                    <input type="text" name="input" class="form-control" required id="input">
+                </div>
+                <button type="submit" class="btn btn-primary">Зашифровать</button>
+            </form>
+            <p id="encResult" class="mt-4"></p>
+    </div>
+    <h5 class="text-center mt-4">Расшифрование</h5>
+    <div class="container w-25">
+        <form class="w-full" id="dec_form">
+            <div class="form-group">
+                <label for="input">Введите зашированный текст</label>
+                <input type="text" name="input" class="form-control" required id="input">
+            </div>
+            <button type="submit" class="btn btn-primary">Расшифровать</button>
+        </form>
+        <p id="decResult" class="mt-4"></p>
+</div>
+</main>
+<script type="text/javascript">
+    let form = document.getElementById('enc_form');
+    let decForm = document.getElementById('dec_form');
+
+    form.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/rc4/encrypt', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('encResult');
+            let result = await res.json();
+            if (res.status === 200) {
+                paragraph.innerHTML = `${result.encrypted}(${result.encodingTime})мс</p>`;
+            }else{
+                paragraph.innerHTML = "Ошибка на сервере";
+            }
+        })
+    };
+
+    decForm.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(decForm);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/rc4/decrypt', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('decResult');
+            let result = await res.json();
+            if (res.status === 200) {
+                paragraph.innerHTML = `${result.decrypted}(${result.decodingTime})мс</p>`;
+            }else{
+                paragraph.innerHTML = "Ошибка на сервере";
+            }
+        })
+    }
+
+
+</script>
+</body>
+</html>

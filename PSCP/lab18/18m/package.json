@@ -1,0 +1,14 @@
+{
+  "name": "18m",
+  "version": "1.0.0",
+  "description": "model module form lab 18",
+  "main": "18-model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "model"
+  ],
+  "author": "Valentine Korneliuk",
+  "license": "ISC"
+}

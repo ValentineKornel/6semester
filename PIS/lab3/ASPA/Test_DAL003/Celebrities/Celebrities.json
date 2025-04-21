@@ -1,0 +1,44 @@
+﻿[
+	{
+		"Id": 1,
+		"Firstname": "Noam",
+		"Surname": "Chomsky",
+		"PhotoPath": "C:\\Users\\Ivan\\Desktop\\6SEM\\PIS\\лаб3\\ASPA\\Test_DAL003\\Celebrities\\Chomsky.jpg"
+	},
+	{
+		"Id": 2,
+		"Firstname": "Tim",
+		"Surname": "Berners-Lee",
+		"PhotoPath": "C:\\Users\\Ivan\\Desktop\\6SEM\\PIS\\лаб3\\ASPA\\Test_DAL003\\Celebrities\\Lee.jpg"
+	},
+	{
+		"Id": 3,
+		"Firstname": "Edgar",
+		"Surname": "Codd",
+		"PhotoPath": "C:\\Users\\Ivan\\Desktop\\6SEM\\PIS\\лаб3\\ASPA\\Test_DAL003\\Celebrities\\Codd.jpg"
+	},
+	{
+		"Id": 4,
+		"Firstname": "Donald",
+		"Surname": "Knuth",
+		"PhotoPath": "C:\\Users\\Ivan\\Desktop\\6SEM\\PIS\\лаб3\\ASPA\\Test_DAL003\\Celebrities\\Knuth.jpg"
+	},
+	{
+		"Id": 5,
+		"Firstname": "Linus",
+		"Surname": "Torvalds",
+		"PhotoPath": "C:\\Users\\Ivan\\Desktop\\6SEM\\PIS\\лаб3\\ASPA\\Test_DAL003\\Celebrities\\Torvalds.jpg"
+	},
+	{
+		"Id": 6,
+		"Firstname": "John",
+		"Surname": "Neumann",
+		"PhotoPath": "C:\\Users\\Ivan\\Desktop\\6SEM\\PIS\\лаб3\\ASPA\\Test_DAL003\\Celebrities\\Neumann.jpg"
+	},
+	{
+		"Id": 7,
+		"Firstname": "Edsger",
+		"Surname": "Dijkstra",
+		"PhotoPath": "C:\\Users\\Ivan\\Desktop\\6SEM\\PIS\\лаб3\\ASPA\\Test_DAL003\\Celebrities\\Dijkstra.jpg"
+	}
+]

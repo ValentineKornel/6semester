@@ -1,0 +1,15 @@
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\bin\Debug\net8.0\DAL_Celebrity_MSSQL.deps.json
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\bin\Debug\net8.0\DAL_Celebrity_MSSQL.dll
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\bin\Debug\net8.0\DAL_Celebrity_MSSQL.pdb
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\bin\Debug\net8.0\DAL_Celebrity.dll
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\bin\Debug\net8.0\DAL_Celebrity.pdb
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.csproj.AssemblyReference.cache
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.AssemblyInfoInputs.cache
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.AssemblyInfo.cs
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.csproj.CoreCompileInputs.cache
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Cele.76F26888.Up2Date
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.dll
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\refint\DAL_Celebrity_MSSQL.dll
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.pdb
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\ref\DAL_Celebrity_MSSQL.dll

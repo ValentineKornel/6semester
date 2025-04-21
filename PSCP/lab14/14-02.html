@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <input type="text" id="pulpitCode" placeholder="Введите код кафедры">
+        <br><input type="text" id="pulpitName" placeholder="Введите название кафедры">
+        <br><input type="text" id="faculty" placeholder="Введите код факультета">
+        <br><input type="button" id="GET" value="GET">
+        <br><input type="button" id="POST" value="POST">
+        <br><input type="button" id="PUT" value="PUT">
+        <br><input type="button" id="DELETE" value="DELETE">
+    </form>
+    <div>
+        <p id="answers"></p>
+    </div>
+</body>
+<script>
+
+    document.getElementById('GET').addEventListener("click", async () => {
+        try {
+            let response = await fetch('http://localhost:3000/api/pulpits');
+            if (!response.ok) throw new Error(`Ошибка: ${response.status}`);
+            let data = await response.json();
+
+            let answer = '';
+            data.forEach(element => {
+                for(key in element){
+                    answer += `${element[key]} `
+                }
+                answer += '<br>';
+            });
+            document.getElementById('answers').innerHTML = answer;
+        } catch (error) {
+            console.error("Ошибка запроса:", error);
+            document.getElementById('answers').innerText = "Ошибка запроса: " + error.message;
+        }
+    });
+
+    document.getElementById('POST').addEventListener("click", async () => {
+        try {
+            let data = {
+                pulpit: document.getElementById('pulpitCode').value,
+                pulpit_name: document.getElementById('pulpitName').value,
+                faculty: document.getElementById('faculty').value
+            };
+            console.log(data);
+            let response = await fetch('http://localhost:3000/api/pulpits', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data),
+            });
+
+            if (!response.ok) throw new Error(`Ошибка: ${response.status}`);
+
+            let result = await response.json();
+            console.log("Ответ сервера:", result);
+            document.getElementById('answers').innerHTML = `Добавлено: ${JSON.stringify(result)}`;
+        } catch (error) {
+            console.log("Ошибка запроса:", error);
+            document.getElementById('answers').innerHTML = "Ошибка запроса: " + error.message;
+        }
+    });
+
+    document.getElementById('PUT').addEventListener("click", async () => {
+        try {
+            let data = {
+                pulpit: document.getElementById('pulpitCode').value,
+                pulpit_name: document.getElementById('pulpitName').value,
+                faculty: document.getElementById('faculty').value
+            };
+            console.log(data);
+            let response = await fetch('http://localhost:3000/api/pulpits', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data),
+            });
+
+            if (!response.ok) throw new Error(`Ошибка: ${response.status}`);
+
+            let result = await response.json();
+            console.log("Ответ сервера:", result);
+            document.getElementById('answers').innerHTML = `Изменено: ${JSON.stringify(result)}`;
+        } catch (error) {
+            console.log("Ошибка запроса:", error);
+            document.getElementById('answers').innerHTML = "Ошибка запроса: " + error.message;
+        }
+    });
+
+    document.getElementById('DELETE').addEventListener("click", async () => {
+        try {
+            let data = document.getElementById('pulpitCode').value;
+            console.log(data);
+            let response = await fetch(`http://localhost:3000/api/pulpits/${data}`, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+            });
+
+            if (!response.ok) throw new Error(`Ошибка: ${response.status}`);
+
+            let result = await response.json();
+            console.log("Ответ сервера:", result);
+            document.getElementById('answers').innerHTML = `Удалено: ${JSON.stringify(result)}`;
+        } catch (error) {
+            console.log("Ошибка запроса:", error);
+            document.getElementById('answers').innerHTML = "Ошибка запроса: " + error.message;
+        }
+    });
+
+</script>
+</html>

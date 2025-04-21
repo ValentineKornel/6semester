@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "Firstname": "Linus",
+    "Surname": "Torvalds",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Torvalds.jpg"
+  },
+  {
+    "Id": 2,
+    "Firstname": "John",
+    "Surname": "Neumann",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Neumann.jpg"
+  },
+  {
+    "Id": 3,
+    "Firstname": "Edsger",
+    "Surname": "Dijkstra",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Dijkstra.jpg"
+  },
+  {
+    "Id": 6,
+    "Firstname": "Edgar_upd",
+    "Surname": "Codd_upd",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Codd.jpg"
+  },
+  {
+    "Id": 7,
+    "Firstname": "Donald_upd",
+    "Surname": "Knuth_upd",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Knuth.jpg.jpg"
+  },
+  {
+    "Id": 6,
+    "Firstname": "Edgar",
+    "Surname": "Codd",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Codd.jpg"
+  },
+  {
+    "Id": 7,
+    "Firstname": "Donald",
+    "Surname": "Knuth",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Knuth.jpg"
+  }
+]

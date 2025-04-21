@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62D1C66D-03E8-4D35-A165-EF5EB79E08E2}|Test_DAL003\\Test_DAL003.csproj|d:\\study\\university\\pis\\\u043B\u0430\u04313\\aspa\\test_dal003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D1C66D-03E8-4D35-A165-EF5EB79E08E2}|Test_DAL003\\Test_DAL003.csproj|solutionrelative:test_dal003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48975C4C-FD55-4234-956C-B461B8BD2EF0}|DAL003\\DAL003.csproj|d:\\study\\university\\pis\\\u043B\u0430\u04313\\aspa\\dal003\\repositories\\celebrityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48975C4C-FD55-4234-956C-B461B8BD2EF0}|DAL003\\DAL003.csproj|solutionrelative:dal003\\repositories\\celebrityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32008C12-1BE2-4083-8F16-47A3976A7030}|ASPA003\\ASPA003.csproj|d:\\study\\university\\pis\\\u043B\u0430\u04313\\aspa\\aspa003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32008C12-1BE2-4083-8F16-47A3976A7030}|ASPA003\\ASPA003.csproj|solutionrelative:aspa003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D1C66D-03E8-4D35-A165-EF5EB79E08E2}|Test_DAL003\\Test_DAL003.csproj|d:\\study\\university\\pis\\\u043B\u0430\u04313\\aspa\\test_dal003\\test_dal003.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62D1C66D-03E8-4D35-A165-EF5EB79E08E2}|Test_DAL003\\Test_DAL003.csproj|solutionrelative:test_dal003\\test_dal003.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 379,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\Test_DAL003\\Program.cs",
+              "RelativeDocumentMoniker": "Test_DAL003\\Program.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\Test_DAL003\\Program.cs",
+              "RelativeToolTip": "Test_DAL003\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T14:14:14.665Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\ASPA003\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA003\\Program.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\ASPA003\\Program.cs",
+              "RelativeToolTip": "ASPA003\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAADwvyoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:23:34.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test_DAL003.csproj",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\Test_DAL003\\Test_DAL003.csproj",
+              "RelativeDocumentMoniker": "Test_DAL003\\Test_DAL003.csproj",
+              "ToolTip": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\Test_DAL003\\Test_DAL003.csproj",
+              "RelativeToolTip": "Test_DAL003\\Test_DAL003.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-23T14:16:01.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CelebrityRepository.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\DAL003\\Repositories\\CelebrityRepository.cs",
+              "RelativeDocumentMoniker": "DAL003\\Repositories\\CelebrityRepository.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\\u043B\u0430\u04313\\ASPA\\DAL003\\Repositories\\CelebrityRepository.cs",
+              "RelativeToolTip": "DAL003\\Repositories\\CelebrityRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T13:42:53.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

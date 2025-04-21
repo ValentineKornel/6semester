@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Lab07 - DES</title>
+    <meta charset="utf-8"/>
+
+</head>
+<body>
+<h3 class="text-center mt-4 mb-4">DES-EEE2</h3>
+<main>
+    <h5 class="text-center mt-4">Шифрование</h5>
+    <div class="container w-25">
+            <p>Введите текст</p>
+            <form class="w-full" id="enc_form">
+                <div class="form-group">
+                    <label for="text">Оригинальное сообщение</label>
+                    <input type="text" name="enc_text" class="form-control" required id="text">
+                </div>
+                <div class="form-group">
+                    <label for="key1">Ключ1</label>
+                    <input type="text" name="key1" class="form-control" required id="key1"><br/>
+                    <label for="key2">Ключ2</label>
+                    <input type="text" name="key2" class="form-control" required id="key1">
+                </div>
+                <button type="submit" class="btn btn-primary">Зашифровать</button>
+            </form>
+            <p id="encResult" class="mt-4"></p>
+    </div>
+    <h5 class="text-center mt-4">Расшифрование</h5>
+    <div>
+        <form class="w-full" id="dec_form">
+            <div class="form-group">
+                <label for="dec_text">Зашифрованное сообщение</label>
+                <input type="text" name="dec_text" class="form-control" required id="dec_text">
+            </div>
+            <div class="form-group">
+                <label for="dec_key1">Ключ1</label>
+                <input type="text" name="key1" class="form-control" required id="dec_key1"><br/>
+                <label for="dec_key2">Ключ2</label>
+                <input type="text" name="key2" class="form-control" required id="dec_key2">
+            </div>
+            <button type="submit" class="btn btn-primary">Рсашифровать</button>
+        </form>
+        <p id="decResult" class="mt-4"></p>
+    </div>
+</main>
+<script type="text/javascript">
+    let form = document.getElementById('enc_form');
+    let formDec = document.getElementById('dec_form');
+
+    form.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/encrypt', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('encResult');
+            if (res.status === 200) {
+                let result = await res.json();
+                paragraph.innerHTML = `<p>${result.encrypted}(${result.encodingTime} мс) </p>`;
+            } else {
+                paragraph.innerHTML = "Произошла ошибка"
+            }
+        })
+    }
+
+    formDec.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(formDec);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/decrypt', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('decResult');
+            if (res.status === 200) {
+                let result = await res.json();
+                paragraph.innerHTML = `
+                    <h5 class="text-center mt-4">Расширование</h5>
+                    <p>${result.decrypted} (${result.decodingTime} мс)</p>
+                    <h5 class="text-center mt-4">Лавинный эффект</h5>
+                    <p>Исходная строка с измененным битом: ${result.avalanche.stringChanged}</p>
+                    <p>stpe1: ${result.avalanche.step1}%</p>
+                    <p>step2: ${result.avalanche.step2}%</p>
+                    <p>step3: ${result.avalanche.step3}%</p>`;
+            } else {
+                paragraph.innerHTML = "Произошла ошибка"
+            }
+        })
+    }
+</script>
+</body>
+</html>

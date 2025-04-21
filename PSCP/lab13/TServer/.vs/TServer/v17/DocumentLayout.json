@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\PSCP\\lab11\\TServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31A7B6E1-A3DA-4092-B576-BE41A74CF430}|TClient\\TClient.vcxproj|D:\\Study\\university\\PSCP\\lab11\\TServer\\TClient\\TClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31A7B6E1-A3DA-4092-B576-BE41A74CF430}|TClient\\TClient.vcxproj|solutionrelative:TClient\\TClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79F126BB-0A24-47CF-80D7-E2AA29BFB5F0}|UServer\\UServer.vcxproj|D:\\Study\\university\\PSCP\\lab11\\TServer\\UServer\\UServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{79F126BB-0A24-47CF-80D7-E2AA29BFB5F0}|UServer\\UServer.vcxproj|solutionrelative:UServer\\UServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27FB1565-EE45-43A6-B1CD-B65225FD6CED}|UClient\\UClient.vcxproj|D:\\Study\\university\\PSCP\\lab11\\TServer\\UClient\\UClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{27FB1565-EE45-43A6-B1CD-B65225FD6CED}|UClient\\UClient.vcxproj|solutionrelative:UClient\\UClient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D20B154-ACA5-4E91-8F17-EBC1625DF916}|TServer\\TServer.vcxproj|D:\\Study\\university\\PSCP\\lab11\\TServer\\TServer\\TServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D20B154-ACA5-4E91-8F17-EBC1625DF916}|TServer\\TServer.vcxproj|solutionrelative:TServer\\TServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UServer.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\PSCP\\lab11\\TServer\\UServer\\UServer.cpp",
+              "RelativeDocumentMoniker": "UServer\\UServer.cpp",
+              "ToolTip": "D:\\Study\\university\\PSCP\\lab11\\TServer\\UServer\\UServer.cpp",
+              "RelativeToolTip": "UServer\\UServer.cpp",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv28AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-17T09:38:50.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UClient.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\PSCP\\lab11\\TServer\\UClient\\UClient.cpp",
+              "RelativeDocumentMoniker": "UClient\\UClient.cpp",
+              "ToolTip": "D:\\Study\\university\\PSCP\\lab11\\TServer\\UClient\\UClient.cpp",
+              "RelativeToolTip": "UClient\\UClient.cpp",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv3kAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-17T09:30:09.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TClient.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\PSCP\\lab11\\TServer\\TClient\\TClient.cpp",
+              "RelativeDocumentMoniker": "TClient\\TClient.cpp",
+              "ToolTip": "D:\\Study\\university\\PSCP\\lab11\\TServer\\TClient\\TClient.cpp",
+              "RelativeToolTip": "TClient\\TClient.cpp",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAALUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T10:41:45.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TServer.cpp",
+              "DocumentMoniker": "D:\\Study\\university\\PSCP\\lab11\\TServer\\TServer\\TServer.cpp",
+              "RelativeDocumentMoniker": "TServer\\TServer.cpp",
+              "ToolTip": "D:\\Study\\university\\PSCP\\lab11\\TServer\\TServer\\TServer.cpp",
+              "RelativeToolTip": "TServer\\TServer.cpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv20AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T10:36:15.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

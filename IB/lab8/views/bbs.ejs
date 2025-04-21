@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Lab07 - DES</title>
+    <meta charset="utf-8"/>
+
+</head>
+<body>
+<h3 class="text-center mt-4 mb-4">BBS</h3>
+<main>
+    <a href="/rc4">To RC4</a>
+    <h5 class="text-center mt-4">Генерация</h5>
+    <div class="container w-25">
+            <p>Введите старотовые значения</p>
+            <form class="w-full" id="bbs_form">
+                <div class="form-group">
+                    <label for="p">p</label>
+                    <input type="number" name="p" class="form-control" required id="p">
+                </div>
+                <div class="form-group">
+                    <label for="q">q</label>
+                    <input type="number" name="q" class="form-control" required id="q">
+                </div>
+                <div class="form-group">
+                    <label for="quantity">quantity</label>
+                    <input type="number" name="quantity" class="form-control" required id="quantity">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Сгенерировать</button>
+            </form>
+            <p id="genResult" class="mt-4"></p>
+    </div>
+</main>
+<script type="text/javascript">
+    let form = document.getElementById('bbs_form');
+
+    form.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/bbs', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('genResult');
+            let result = await res.json();
+            if (res.status === 200) {
+                paragraph.innerHTML = `<p>сгенерированные числа: ${result.numbers}</p>
+                                       <p>последние биты: ${result.bits}</p>
+                                       <p>время генерации: ${result.generationTime}мс</p>`;
+            } else if(res.status === 400){
+                paragraph.innerHTML = `<p>${result.message}</p>`;
+            }else{
+                paragraph.innerHTML = "Ошибка на сервере";
+            }
+        })
+    }
+</script>
+</body>
+</html>

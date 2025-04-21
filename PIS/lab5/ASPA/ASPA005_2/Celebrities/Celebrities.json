@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Firstname": "Linus",
+    "Surname": "Torvalds",
+    "PhotoPath": "Torvalds.jpg"
+  },
+  {
+    "Id": 2,
+    "Firstname": "John",
+    "Surname": "Neumann",
+    "PhotoPath": "Neumann.jpg"
+  },
+  {
+    "Id": 3,
+    "Firstname": "Edsger",
+    "Surname": "Dijkstra",
+    "PhotoPath": "Dijkstra.jpg"
+  },
+  {
+    "Id": 4,
+    "Firstname": "Noam",
+    "Surname": "Chomskyrt",
+    "PhotoPath": "Chomskyrt.jpg"
+  }
+]

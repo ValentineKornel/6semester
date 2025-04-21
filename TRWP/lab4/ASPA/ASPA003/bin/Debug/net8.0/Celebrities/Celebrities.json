@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Firstname": "Linus",
+    "Surname": "Torvalds",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Torvalds.jpg"
+  },
+  {
+    "Id": 2,
+    "Firstname": "John",
+    "Surname": "Neumann",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Neumann.jpg"
+  },
+  {
+    "Id": 3,
+    "Firstname": "Edsger",
+    "Surname": "Dijkstra",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Dijkstra.jpg"
+  },
+  {
+    "Id": 1162512727,
+    "Firstname": "Noam",
+    "Surname": "Chomsky",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Chomsky.jpg"
+  },
+  {
+    "Id": -1272836703,
+    "Firstname": null,
+    "Surname": "Chomsky",
+    "PhotoPath": "D:\\Study\\university\\TPWI\\lab4\\ASPA\\Test_DAL003\\Celebrities\\Chomsky.jpg"
+  }
+]

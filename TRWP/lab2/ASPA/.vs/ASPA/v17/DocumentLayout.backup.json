@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6991064D-56F3-4417-97D3-D0FE66629656}|ASPA002_1\\ASPA002_1.csproj|d:\\study\\university\\trwp\\lab2\\aspa\\aspa002_1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6991064D-56F3-4417-97D3-D0FE66629656}|ASPA002_1\\ASPA002_1.csproj|solutionrelative:aspa002_1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6991064D-56F3-4417-97D3-D0FE66629656}|ASPA002_1\\ASPA002_1.csproj|d:\\study\\university\\trwp\\lab2\\aspa\\aspa002_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6991064D-56F3-4417-97D3-D0FE66629656}|ASPA002_1\\ASPA002_1.csproj|solutionrelative:aspa002_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A527084-0264-4323-BC8F-F1FC7D905F1F}|ASPA002_2\\ASPA002_2.csproj|d:\\study\\university\\trwp\\lab2\\aspa\\aspa002_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A527084-0264-4323-BC8F-F1FC7D905F1F}|ASPA002_2\\ASPA002_2.csproj|solutionrelative:aspa002_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9998B2E4-6657-41C9-8BE8-863C4F242B85}|ASP002_3\\ASP002_3.csproj|d:\\study\\university\\trwp\\lab2\\aspa\\asp002_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9998B2E4-6657-41C9-8BE8-863C4F242B85}|ASP002_3\\ASP002_3.csproj|solutionrelative:asp002_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6991064D-56F3-4417-97D3-D0FE66629656}|ASPA002_1\\ASPA002_1.csproj|d:\\study\\university\\trwp\\lab2\\aspa\\aspa002_1\\wwwroot\\js\\calc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6991064D-56F3-4417-97D3-D0FE66629656}|ASPA002_1\\ASPA002_1.csproj|solutionrelative:aspa002_1\\wwwroot\\js\\calc.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "calc.js",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_1\\wwwroot\\js\\calc.js",
+              "RelativeDocumentMoniker": "ASPA002_1\\wwwroot\\js\\calc.js",
+              "ToolTip": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_1\\wwwroot\\js\\calc.js",
+              "RelativeToolTip": "ASPA002_1\\wwwroot\\js\\calc.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-10T06:44:42.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ASPA002_1\\wwwroot\\index.html",
+              "ToolTip": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_1\\wwwroot\\index.html",
+              "RelativeToolTip": "ASPA002_1\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-17T06:40:12.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_2\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA002_2\\Program.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_2\\Program.cs",
+              "RelativeToolTip": "ASPA002_2\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:12:39.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_1\\Program.cs",
+              "RelativeDocumentMoniker": "ASPA002_1\\Program.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASPA002_1\\Program.cs",
+              "RelativeToolTip": "ASPA002_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:12:35.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASP002_3\\Program.cs",
+              "RelativeDocumentMoniker": "ASP002_3\\Program.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\lab2\\ASPA\\ASP002_3\\Program.cs",
+              "RelativeToolTip": "ASP002_3\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:54:02.696Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

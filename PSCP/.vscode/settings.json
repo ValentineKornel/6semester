@@ -1,0 +1,10 @@
+{
+    "animations.CursorAnimationOptions": {
+        "Color": "#f801f1",
+        "TrailLength": 8
+    },
+    "animations.CursorAnimation": true,
+    "animations.Durations": {
+        "Command-Palette": 300
+    }
+}

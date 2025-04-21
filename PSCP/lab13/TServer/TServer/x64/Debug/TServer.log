@@ -1,0 +1,61 @@
+﻿  TServer.cpp
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(8,9): warning C4005: 'INADDR_ANY': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(600,9):
+      see previous definition of 'INADDR_ANY'
+  
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(10,9): warning C4005: 'INADDR_BROADCAST': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ws2def.h(602,9):
+      see previous definition of 'INADDR_BROADCAST'
+  
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(22,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(23,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(24,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(25,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(26,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(27,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(28,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(29,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(30,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(31,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(32,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(33,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(34,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(35,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(36,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(37,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(38,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(39,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(40,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(41,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(42,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(43,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(44,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(45,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(46,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(47,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(48,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(49,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(50,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(51,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(52,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(53,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(54,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(55,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(56,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(57,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(58,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(59,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(60,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(61,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(62,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(63,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(64,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(65,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(66,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(67,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(68,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(69,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(70,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(74,46): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (1251)
+D:\Study\university\PSCP\lab11\TServer\TServer\TServer.cpp(131,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  TServer.vcxproj -> D:\Study\university\PSCP\lab11\TServer\x64\Debug\TServer.exe
