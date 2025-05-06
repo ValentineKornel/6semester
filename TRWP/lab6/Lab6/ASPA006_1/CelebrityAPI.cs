@@ -50,6 +50,14 @@ internal class Program
 
         celebrities.MapGet("/photo/{fname}", async (IOptions<CelebritiesConfig> iconfig, HttpContext context, string fname) =>
         {
+            var config = iconfig.Value;
+            var photoPath = Path.Combine(config.PhotosFolder, fname);
+
+            if (!File.Exists(photoPath))
+                return Results.NotFound();
+
+            var mimeType = "image/jpeg";
+            return Results.File(photoPath, mimeType);
 
         });
 
@@ -73,15 +81,11 @@ internal class Program
             Exception? ex = ctx.Features.Get<IExceptionHandlerFeature>()?.Error;
             IResult rc = Results.Problem(detail: ex.Message, instance: app.Environment.EnvironmentName, title: "ASPA004", statusCode: 500);
 
-            //if (ex != null)
-            //{
-            //    if (ex is DeleteException) rc = Results.Problem(title: "ASPA004", detail: ex.Message, instance: app.Environment.EnvironmentName, statusCode: 500);
-            //    if (ex is FileNotFoundException) rc = Results.Problem(title: "ASPA004", detail: ex.Message, instance: app.Environment.EnvironmentName, statusCode: 500);
-            //    if (ex is FoundByIdException) rc = Results.NotFound(ex.Message);
-            //    if (ex is BadHttpRequestException) rc = Results.BadRequest(ex.Message);
-            //    if (ex is SaveException) rc = Results.Problem(title: "ASPA004/SaveChanges", detail: ex.Message, instance: app.Environment.EnvironmentName, statusCode: 500);
-            //    if (ex is AddCelebrityException) rc = Results.Problem(title: "ASPA004/addCelebrity", detail: ex.Message, instance: app.Environment.EnvironmentName, statusCode: 500);
-            //}
+            if (ex != null)
+            {
+                if (ex is FileNotFoundException) rc = Results.Problem(title: "ASPA004", detail: ex.Message, instance: app.Environment.EnvironmentName, statusCode: 500);
+                if (ex is BadHttpRequestException) rc = Results.BadRequest(ex.Message);
+            }
             return rc;
         });
 

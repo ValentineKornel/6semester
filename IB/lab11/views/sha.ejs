@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Lab11 - SHA-256</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<div class="container w-25">
+    <h3 class="text-center mt-4 mb-4">SHA-256</h3>
+    <form class="w-full" id="sha_form">
+        <div class="form-group">
+            <label for="message">Сообщение</label>
+            <input type="text" name="message" class="form-control" required id="message">
+        </div>
+        <button type="submit">Захешировать</button>
+    </form>
+    <p id="shaResult" class="mt-4"></p>
+</div>
+<script type="text/javascript">
+    let form = document.getElementById('sha_form');
+
+    form.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/sha', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('shaResult');
+            if (res.status === 200) {
+                let result = await res.json();
+                paragraph.innerHTML = `${result.hash}<br/>Длина: ${result.length} байта<br/>Время: ${result.hashingTime} мс`;
+            } else {
+                paragraph.innerHTML = "Произошла ошибка"
+            }
+        })
+    }
+
+</script>
+</body>
+</html>

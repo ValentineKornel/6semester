@@ -1,0 +1,90 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "Телефонный справочник API",
+      "version": "1.0.0",
+      "description": "API для управления записями в телефонном справочнике"
+    },
+    "paths": {
+      "/TS": {
+        "get": {
+          "summary": "Получить список телефонов",
+          "description": "Возвращает полный список телефонов в формате JSON",
+          "responses": {
+            "200": {
+              "description": "Список успешно получен",
+              "content": {
+                "application/json": {
+                  "example": [
+                    { "id": 1, "name": "Иван", "phone": "+375291234567" },
+                    { "id": 2, "name": "Анна", "phone": "+375337654321" }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "post": {
+          "summary": "Добавить новый телефон",
+          "description": "Создаёт новую запись в справочнике",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": { "type": "string" },
+                    "phone": { "type": "string" }
+                  },
+                  "example": { "name": "Алексей", "phone": "+375295551122" }
+                }
+              }
+            }
+          },
+          "responses": {
+            "201": { "description": "Телефон добавлен" }
+          }
+        },
+        "put": {
+          "summary": "Обновить запись",
+          "description": "Корректирует данные телефона",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": { "type": "integer" },
+                    "name": { "type": "string" },
+                    "phone": { "type": "string" }
+                  },
+                  "example": { "id": 1, "name": "Иван Петров", "phone": "+375291234567" }
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": { "description": "Запись обновлена" }
+          }
+        },
+        "delete": {
+          "summary": "Удалить запись",
+          "description": "Удаляет телефон из справочника по ID",
+          "parameters": [
+            {
+              "name": "id",
+              "in": "query",
+              "required": true,
+              "schema": { "type": "integer" },
+              "example": 1
+            }
+          ],
+          "responses": {
+            "200": { "description": "Запись удалена" }
+          }
+        }
+      }
+    }
+  }

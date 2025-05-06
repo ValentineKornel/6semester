@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Lab12 - ЭЦП</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <ul class="nav justify-content-center mt-4">
+        <li class="nav-item">
+            <a class="nav-link active" href="/rsa">RSA</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/schnorr">Шнорра</a>
+        </li>
+    </ul>
+    <h2 class="text-center mt-4">Алгоритм Эль-Гамаля</h2>
+    <form class="w-full" id="sign-form">
+        <div class="form-group">
+            <label for="message">Сообщение</label>
+            <input type="text" name="message" class="form-control" required id="message">
+        </div>
+        <button type="submit">Сгенерировать подпись</button>
+    </form>
+    <div id="sign-result" class="mt-4"></div>
+
+    <h4 class="text-center mt-4">Проверить подпись</h4>
+    <form id="verify-form">
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <input type="text" name="message" class="form-control" required id="message">
+        </div>
+      
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <label for="p">Публичный ключ (p)</label>
+            <input type="text" name="p" class="form-control" required id="p">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="g">Публичный ключ (g)</label>
+            <input type="text" name="g" class="form-control" required id="g">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="y">Публичный ключ (y)</label>
+            <input type="text" name="y" class="form-control" required id="y">
+          </div>
+        </div>
+      
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="signA">Подпись (a)</label>
+                <input type="text" name="signA" class="form-control" required id="signA">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="signB">Подпись (b)</label>
+                <input type="text" name="signB" class="form-control" required id="signB">
+            </div>
+        </div>
+    
+        <button type="submit">Проверить</button>
+    </form>
+    <div id="verify-result" class="mt-4"></div>
+</div>
+
+<script type="text/javascript">
+    let singForm = document.getElementById('sign-form');
+    let verifyForm = document.getElementById('verify-form');
+
+    singForm.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(singForm);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/el-gamal/sign', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('sign-result');
+            if (res.status === 200) {
+                let result = await res.json();
+                paragraph.innerHTML = `
+                <h5>Публичный ключ (p, g, y)</h5>
+                <p>{${result.publicKey.p}, ${result.publicKey.g}, ${result.publicKey.y}}</p>
+                <h5>Цифровая подпись S = {a, b} (${result.signTime})</h5>
+                <p>${result.digitalSign[0]}, ${result.digitalSign[1]}</p>
+                `;
+            } else {
+                paragraph.innerHTML = "Произошла ошибка"
+            }
+        })
+    }
+
+    verifyForm.onsubmit = async (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(verifyForm);
+        let jsonRequestData = {};
+
+        for (let [key, value] of formData) {
+            jsonRequestData[key] = value;
+        }
+
+        fetch('/el-gamal/verify', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonRequestData)
+        }).then(async (res) => {
+            let paragraph = document.getElementById('verify-result');
+            if (res.status === 200) {
+                let result = await res.json();
+                paragraph.innerHTML = `
+                <p>Подпись достоверна?: ${result.verified} (${result.verificationTime})</p>
+                `;
+            } else {
+                paragraph.innerHTML = "Произошла ошибка"
+            }
+        })
+    }
+</script>
+</body>
+</html>

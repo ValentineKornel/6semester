@@ -34,7 +34,7 @@ Content-Type:application/json
 
 ###  изменить знаменитость по ID  
 ###  MapPut("/{id:int:min(1)}", 
-PUT {{hp}}{{capi}}/14
+PUT {{hp}}{{capi}}/13
 Content-Type:application/json
 
  {
@@ -46,7 +46,7 @@ Content-Type:application/json
 
 ### получить файл фотографии по имени файла (fname)
 ### MapGet("/photo/{fname}"
-GET {{hp}}{{capi}}/photo/Ershov.jpg
+GET {{hp}}{{capi}}/photo/Codd.jpg
 
 
 ### 
@@ -81,7 +81,7 @@ POST {{hp}}{{lapi}}
 Content-Type:application/json
 
 {
-    "celebrityId": 14,
+    "celebrityId": 13,
     "date": "1931-04-19T00:00:00",
     "description": "Дата рождения",
     "reqPhotoPath": null
@@ -89,7 +89,7 @@ Content-Type:application/json
 
 ###  изменить событие по ID 
 ###  MapPut("/{id:int:min(1)}"
-PUT {{hp}}{{lapi}}/25 
+PUT {{hp}}{{lapi}}/24 
 Content-Type:application/json
 
 {

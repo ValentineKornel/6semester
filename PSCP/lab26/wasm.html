@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebAssembly Test</title>
+</head>
+<body>
+    <h1>WebAssembly: sum, mul, sub</h1>
+    <p id="sum"></p>
+    <p id="mul"></p>
+    <p id="sub"></p>
+
+    <script>
+        async function loadWasm() {
+            try {
+                const response = await fetch('http://localhost:3000/p.wasm');
+                if (!response.ok) throw new Error(`Error loading file: ${response.statusText}`);
+
+                const buffer = await response.arrayBuffer();
+                const wasmModule = await WebAssembly.instantiate(buffer);
+
+                document.getElementById("sum").textContent = "Sum: " + wasmModule.instance.exports.sum(5, 3);
+                document.getElementById("mul").textContent = "Mul: " + wasmModule.instance.exports.mul(5, 3);
+                document.getElementById("sub").textContent = "Sub: " + wasmModule.instance.exports.sub(5, 3);
+
+            } catch (error) {
+                document.body.innerHTML += `<p style="color:red;">Error: ${error.message}</p>`;
+            }
+        }
+
+        loadWasm();
+    </script>
+</body>
+</html>

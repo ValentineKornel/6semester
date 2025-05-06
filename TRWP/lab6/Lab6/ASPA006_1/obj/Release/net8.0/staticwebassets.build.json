@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "5cvR5PAK3aGXuR72Ad0YWPT5hzfYRR36gx+MvVaGqJ8=",
+  "Source": "ASPA006_1",
+  "BasePath": "_content/ASPA006_1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPA006_1\\wwwroot",
+      "Source": "ASPA006_1",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\lab6\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Study\\university\\TRWP\\lab6\\Lab6\\ASPA006_1\\wwwroot\\css\\Celebrities.css",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\lab6\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "css/Celebrities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Celebrities.css"
+    },
+    {
+      "Identity": "D:\\Study\\university\\TRWP\\lab6\\Lab6\\ASPA006_1\\wwwroot\\index.html",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\lab6\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Study\\university\\TRWP\\lab6\\Lab6\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+      "SourceId": "ASPA006_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\lab6\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/ASPA006_1",
+      "RelativePath": "js/Celebrities.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Celebrities.js"
+    }
+  ]
+}
