@@ -1,0 +1,65 @@
+|USER_ID|USER_NAME       |USER_ROLE             |USER_SALARY|TASK_ID|TASK_TITLE       |TASK_DESCRIPTION            |TASK_CREATION_DATE|TASK_COMPLETION_DATE|TASK_DEADLINE|TASK_STATUS|
+|-------|----------------|----------------------|-----------|-------|-----------------|----------------------------|------------------|--------------------|-------------|-----------|
+|3      |Алексей Сидоров |sidorov@example.com   |5,000      |1      |Разработка API   |Создать REST API            |2025-02-10        |2025-02-17          |2025-04-01   |Completed  |
+|4      |Мария Кузнецова |kuznetsova@example.com|5,200      |2      |Проектирование БД|Создать схему БД            |2025-02-10        |2025-02-17          |2025-04-05   |In Progress|
+|5      |Ольга Смирнова  |smirnova@example.com  |4,800      |3      |Создание UI      |Разработать интерфейс       |2025-02-10        |2025-02-17          |2025-04-10   |New        |
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |4      |Разработка логики|Написать бизнес-логику      |2025-02-10        |2025-02-17          |2025-04-15   |New        |
+|7      |Сергей Михайлов |mikhailov@example.com |5,300      |5      |Тестирование     |Разработать тесты           |2025-02-10        |2025-02-17          |2025-04-20   |New        |
+|8      |Анна Федорова   |fedorova@example.com  |4,900      |6      |Документирование |Создать документацию        |2025-02-10        |2025-02-17          |2025-04-25   |New        |
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |7      |Развертывание    |Настроить сервер            |2025-02-10        |2025-02-17          |2025-04-30   |New        |
+|10     |Елена Орлова    |orlova@example.com    |4,700      |8      |Обратная связь   |Собрать отзывы              |2025-02-10        |2025-02-17          |2025-05-01   |New        |
+|3      |Алексей Сидоров |sidorov@example.com   |5,000      |9      |Оптимизация      |Оптимизировать код          |2025-02-10        |2025-02-17          |2025-05-05   |New        |
+|4      |Мария Кузнецова |kuznetsova@example.com|5,200      |10     |Интеграция       |Связать с внешними сервисами|2025-02-10        |2025-02-17          |2025-05-10   |New        |
+|2      |Петр Петров     |petrov@example.com    |6,000      |13     |Task 73          |Description for task 1      |2025-01-31        |2025-02-07          |2025-04-11   |In Progress|
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |22     |Task 59          |Description for task 10     |2025-01-15        |2025-01-22          |2025-03-20   |In Progress|
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |25     |Task 5           |Description for task 13     |2025-02-16        |2025-02-23          |2025-03-17   |In Progress|
+|10     |Елена Орлова    |orlova@example.com    |4,700      |31     |Task 27          |Description for task 19     |2025-02-17        |2025-02-24          |2025-03-27   |In Progress|
+|5      |Ольга Смирнова  |smirnova@example.com  |4,800      |35     |Task 33          |Description for task 23     |2025-01-22        |2025-01-29          |2025-04-09   |In Progress|
+|1      |Иван Иванов     |ivanov@example.com    |7,000      |36     |Task 23          |Description for task 24     |2024-12-28        |2025-01-04          |2025-04-07   |In Progress|
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |39     |Task 14          |Description for task 27     |2025-01-04        |2025-01-11          |2025-03-16   |In Progress|
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |40     |Task 61          |Description for task 28     |2025-01-08        |2025-01-15          |2025-04-07   |In Progress|
+|8      |Анна Федорова   |fedorova@example.com  |4,900      |49     |Task 8           |Description for task 37     |2025-01-18        |2025-01-25          |2025-04-04   |In Progress|
+|4      |Мария Кузнецова |kuznetsova@example.com|5,200      |54     |Task 51          |Description for task 42     |2024-12-26        |2025-01-02          |2025-03-20   |In Progress|
+|7      |Сергей Михайлов |mikhailov@example.com |5,300      |70     |Task 24          |Description for task 58     |2025-01-25        |2025-02-01          |2025-03-31   |In Progress|
+|3      |Алексей Сидоров |sidorov@example.com   |5,000      |76     |Task 62          |Description for task 64     |2025-01-25        |2025-02-01          |2025-04-04   |In Progress|
+|2      |Петр Петров     |petrov@example.com    |6,000      |77     |Task 77          |Description for task 65     |2025-01-29        |2025-02-05          |2025-04-09   |In Progress|
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |78     |Task 58          |Description for task 66     |2025-02-18        |2025-02-25          |2025-03-16   |In Progress|
+|7      |Сергей Михайлов |mikhailov@example.com |5,300      |82     |Task 69          |Description for task 70     |2025-01-23        |2025-01-30          |2025-03-26   |In Progress|
+|4      |Мария Кузнецова |kuznetsova@example.com|5,200      |83     |Task 19          |Description for task 71     |2025-02-07        |2025-02-14          |2025-03-28   |In Progress|
+|10     |Елена Орлова    |orlova@example.com    |4,700      |86     |Task 63          |Description for task 74     |2025-01-12        |2025-01-19          |2025-03-22   |In Progress|
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |95     |Task 76          |Description for task 83     |2025-02-17        |2025-02-24          |2025-03-19   |In Progress|
+|4      |Мария Кузнецова |kuznetsova@example.com|5,200      |97     |Task 54          |Description for task 85     |2024-12-29        |2025-01-05          |2025-03-24   |In Progress|
+|3      |Алексей Сидоров |sidorov@example.com   |5,000      |104    |Task 84          |Description for task 92     |2025-01-07        |2025-01-14          |2025-04-09   |In Progress|
+|2      |Петр Петров     |petrov@example.com    |6,000      |109    |Task 85          |Description for task 97     |2025-02-06        |2025-02-13          |2025-03-26   |In Progress|
+|5      |Ольга Смирнова  |smirnova@example.com  |4,800      |113    |Task 52          |Description for task 1      |2025-01-16        |2025-01-23          |2025-04-10   |Cancelled  |
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |120    |Task 10          |Description for task 8      |2025-01-03        |2025-01-10          |2025-04-12   |Cancelled  |
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |133    |Task 19          |Description for task 21     |2025-01-19        |2025-01-26          |2025-03-21   |Cancelled  |
+|8      |Анна Федорова   |fedorova@example.com  |4,900      |135    |Task 58          |Description for task 23     |2025-01-11        |2025-01-18          |2025-03-16   |Cancelled  |
+|8      |Анна Федорова   |fedorova@example.com  |4,900      |145    |Task 5           |Description for task 33     |2025-02-01        |2025-02-08          |2025-03-20   |Cancelled  |
+|5      |Ольга Смирнова  |smirnova@example.com  |4,800      |146    |Task 77          |Description for task 34     |2025-02-19        |2025-02-26          |2025-03-23   |Cancelled  |
+|1      |Иван Иванов     |ivanov@example.com    |7,000      |149    |Task 27          |Description for task 37     |2025-02-10        |2025-02-17          |2025-03-22   |Cancelled  |
+|2      |Петр Петров     |petrov@example.com    |6,000      |150    |Task 42          |Description for task 38     |2025-02-03        |2025-02-10          |2025-04-04   |Cancelled  |
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |153    |Task 62          |Description for task 41     |2025-01-30        |2025-02-06          |2025-03-31   |Cancelled  |
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |166    |Task 51          |Description for task 54     |2025-02-05        |2025-02-12          |2025-04-06   |Cancelled  |
+|2      |Петр Петров     |petrov@example.com    |6,000      |181    |Task 95          |Description for task 69     |2025-02-08        |2025-02-15          |2025-03-17   |Cancelled  |
+|1      |Иван Иванов     |ivanov@example.com    |7,000      |182    |Task 11          |Description for task 70     |2025-01-24        |2025-01-31          |2025-04-08   |Cancelled  |
+|7      |Сергей Михайлов |mikhailov@example.com |5,300      |187    |Task 9           |Description for task 75     |2025-02-11        |2025-02-18          |2025-04-04   |Cancelled  |
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |188    |Task 32          |Description for task 76     |2024-12-26        |2025-01-02          |2025-03-17   |Cancelled  |
+|10     |Елена Орлова    |orlova@example.com    |4,700      |209    |Task 2           |Description for task 97     |2025-01-12        |2025-01-19          |2025-03-19   |Cancelled  |
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |211    |Task 57          |Description for task 99     |2025-02-11        |2025-02-18          |2025-03-29   |Cancelled  |
+|3      |Алексей Сидоров |sidorov@example.com   |5,000      |217    |Task 53          |Description for task 5      |2025-02-04        |2025-02-11          |2025-04-07   |Completed  |
+|4      |Мария Кузнецова |kuznetsova@example.com|5,200      |228    |Task 31          |Description for task 16     |2025-02-15        |2025-02-22          |2025-03-16   |Completed  |
+|7      |Сергей Михайлов |mikhailov@example.com |5,300      |230    |Task 72          |Description for task 18     |2025-01-23        |2025-01-30          |2025-03-31   |Completed  |
+|8      |Анна Федорова   |fedorova@example.com  |4,900      |232    |Task 18          |Description for task 20     |2025-02-07        |2025-02-14          |2025-04-11   |Completed  |
+|5      |Ольга Смирнова  |smirnova@example.com  |4,800      |245    |Task 42          |Description for task 33     |2025-01-06        |2025-01-13          |2025-03-19   |Completed  |
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |247    |Task 2           |Description for task 35     |2025-02-06        |2025-02-13          |2025-03-31   |Completed  |
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |258    |Task 55          |Description for task 46     |2025-01-02        |2025-01-09          |2025-04-03   |Completed  |
+|6      |Дмитрий Васильев|vasiliev@example.com  |6,100      |261    |Task 23          |Description for task 49     |2025-02-05        |2025-02-12          |2025-03-20   |Completed  |
+|3      |Алексей Сидоров |sidorov@example.com   |5,000      |265    |Task 77          |Description for task 53     |2025-01-04        |2025-01-11          |2025-04-13   |Completed  |
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |268    |Task 51          |Description for task 56     |2024-12-31        |2025-01-07          |2025-03-17   |Completed  |
+|5      |Ольга Смирнова  |smirnova@example.com  |4,800      |275    |Task 39          |Description for task 63     |2025-02-21        |2025-02-28          |2025-03-17   |Completed  |
+|7      |Сергей Михайлов |mikhailov@example.com |5,300      |277    |Task 99          |Description for task 65     |2025-02-16        |2025-02-23          |2025-03-25   |Completed  |
+|7      |Сергей Михайлов |mikhailov@example.com |5,300      |285    |Task 76          |Description for task 73     |2025-02-14        |2025-02-21          |2025-03-16   |Completed  |
+|3      |Алексей Сидоров |sidorov@example.com   |5,000      |289    |Task 88          |Description for task 77     |2024-12-27        |2025-01-03          |2025-04-05   |Completed  |
+|9      |Виктор Тихонов  |tikhonov@example.com  |6,200      |301    |Task 91          |Description for task 89     |2025-01-09        |2025-01-16          |2025-04-03   |Completed  |
+|1      |Иван Иванов     |ivanov@example.com    |7,000      |302    |Task 57          |Description for task 90     |2025-02-07        |2025-02-14          |2025-04-02   |Completed  |

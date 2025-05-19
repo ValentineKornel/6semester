@@ -13,3 +13,4 @@ D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Cele
 D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\refint\DAL_Celebrity_MSSQL.dll
 D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.pdb
 D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\ref\DAL_Celebrity_MSSQL.dll
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL\obj\Debug\net8.0\DAL_Celebrity_MSSQL.sourcelink.json

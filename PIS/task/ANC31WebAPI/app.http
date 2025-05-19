@@ -1,0 +1,176 @@
+### 
+@hp=http://localhost:5228
+@capi=/api/Celebrities
+###
+
+
+###  все знаменитости
+###  api/Celebrities/GetAllCelebrities 
+GET {{hp}}{{capi}}/GetAllCelebrities
+Accept:application/json
+
+
+### знаменитость по ID
+### api/Celebrities/GetCelebrityById/1
+GET {{hp}}{{capi}}/GetCelebrityById/222
+
+### знаменитость  по ID события 
+### MapGet("/Lifeevents/{id:int:min(1)}"
+GET {{hp}}{{capi}}/Lifeevents/7
+
+###  удалить знаменитость  по ID
+###.MapDelete("/{id:int:min(1)}",
+DELETE {{hp}}{{capi}}/4
+
+
+###  добавить новую знаменитость 
+###  MapPost("/",
+POST {{hp}}{{capi}}
+Content-Type:application/json
+
+  {
+    "fullName":    "Ершов Андрей",
+    "nationality": "RU",
+    "reqPhotoPath":"Ershov.jpg"
+  }
+
+###  изменить знаменитость по ID  
+###  MapPut("/{id:int:min(1)}", 
+PUT {{hp}}{{capi}}/13
+Content-Type:application/json
+
+ {
+    "fullName":    "Ершов Андрей Петрович",
+    "nationality": "RU",
+    "reqPhotoPath":"Ershov.jpg"
+  }
+
+
+### получить файл фотографии по имени файла (fname)
+### MapGet("/photo/{fname}"
+GET {{hp}}{{capi}}/photo/Ershov.jpg
+
+
+### 
+@lapi=/api/Lifeevents
+###
+
+###  все события 
+###  MapGet("/",
+GET {{hp}}{{lapi}}
+
+###
+
+### GET http://localhost:5292/api/Lifeevents
+
+###  событие по ID
+###  MapGet("/{id:int:min(1)}"
+GET {{hp}}{{lapi}}/10
+
+
+###  все события по ID знаменитости  
+###  MapGet("/Celebrities/{id:int:min(1)}
+GET {{hp}}{{lapi}}/Celebrities/3
+
+
+###  удалить событие  по ID
+###  MapDelete("/{id:int:min(1)}"
+DELETE {{hp}}{{lapi}}/10
+
+
+
+###  добавить новое событие 
+###  MapPost("/", 
+POST {{hp}}{{lapi}}
+Content-Type:application/json
+
+{
+    "celebrityId": 13,
+    "date": "1931-04-19T00:00:00",
+    "description": "Дата рождения",
+    "reqPhotoPath": null
+ }
+
+###  изменить событие по ID 
+###  MapPut("/{id:int:min(1)}"
+PUT {{hp}}{{lapi}}/24 
+Content-Type:application/json
+
+{
+    "celebrityId": 13,
+    "date": "1931-04-19T00:00:00",
+    "description": "Дата рождения. Москва.",
+    "reqPhotoPath": null
+}
+
+
+
+
+###https://{{hostname}}:{{port}}/weatherforecas
+
+GET  http://localhost:5204/Celebrities 
+
+###
+
+### @host={{hostname}}:{{port}}
+### "http://Localhost:5204/
+
+
+
+GET  http://localhost:5204/Celebrities/3
+
+###
+POST  http://localhost:5204/Celebrities
+Content-Type:application/json
+
+{
+    "fullName": "FullName1",
+    "nationality": "BY",
+    "reqPhotoPath": null ]
+}
+
+####
+DELETE  http://localhost:5204/Celebrities/1003
+
+####
+PUT  http://localhost:5204/Celebrities/1004
+Content-Type:application/json
+
+{
+    "fullName": "FullName",
+    "nationality": "BE",
+    "reqPhotoPath": "/update" 
+}
+
+####
+GET  http://localhost:5204/Lifeevents 
+
+####
+GET  http://localhost:5204/Lifeevents/0 
+
+####
+DELETE http://localhost:5204/Lifeevents/6
+
+###
+POST  http://localhost:5204/Lifeevents
+Content-Type:application/json
+
+{
+  "celebrityId": 2,
+  "description": "Desrition: 2 CelebrityId = 9",
+  "reqPhotoPath":"/photo.jpeg"
+}
+
+###
+PUT  http://localhost:5204/Lifeevents/2
+Content-Type:application/json
+
+{
+   
+   "celebrityId": 0,
+    "date": "2025-03-18T13:25:12.7146135",
+    "description": "----",
+    "reqPhotoPath": "name.jpg"
+ }
+
+###

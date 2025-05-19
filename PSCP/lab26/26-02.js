@@ -4,7 +4,7 @@ const path = require('path')
 const fs = require('fs')
 const app = express();
 
-async function loadWasm() {
+async function loadOperations() {
     const buffer = fs.readFileSync('./p.wasm');
     const wasmModule = await WebAssembly.instantiate(buffer);
     return wasmModule.instance.exports;
@@ -28,10 +28,10 @@ app.get('/:operation/:a/:b', async (req, res) => {
         }
 
         const result = operations[operation](parseInt(a), parseInt(b));
-        res.send(`Result: ${result}`);
+        res.send(`${result}`);
     } catch (error) {
         res.status(500).send(`Error handling WASM ${error.message}`);
     }
 });
 
-app.listen(3000, async () => {wasmExports = await loadWasm(); console.log('Server started at port 3000')});
+app.listen(3000, async () => {wasmExports = await loadOperations(); console.log('Server started at port 3000')});

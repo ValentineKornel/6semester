@@ -1,0 +1,3282 @@
+<Projects>
+    <Project>
+        <ProjectTitle>CRM-система</ProjectTitle>
+        <start_date>2025-03-01</start_date>
+        <deadline>2025-09-01</deadline>
+        <ManagerName>Петр Петров</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Разработка API</TaskTitle>
+                <TaskDescription>Создать REST API</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-04-01</deadline>
+                <status>Completed</status>
+                <type>Development</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Проектирование БД</TaskTitle>
+                <TaskDescription>Создать схему БД</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>In Progress</status>
+                <type>Database</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 16</TaskTitle>
+                <TaskDescription>Description for task 14</TaskDescription>
+                <creation_date>2024-11-23</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 67</TaskTitle>
+                <TaskDescription>Description for task 40</TaskDescription>
+                <creation_date>2024-07-30</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 24</TaskTitle>
+                <TaskDescription>Description for task 58</TaskDescription>
+                <creation_date>2025-01-25</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 34</TaskTitle>
+                <TaskDescription>Description for task 67</TaskDescription>
+                <creation_date>2024-10-02</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 19</TaskTitle>
+                <TaskDescription>Description for task 71</TaskDescription>
+                <creation_date>2025-02-07</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 44</TaskTitle>
+                <TaskDescription>Description for task 75</TaskDescription>
+                <creation_date>2025-02-28</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 94</TaskTitle>
+                <TaskDescription>Description for task 78</TaskDescription>
+                <creation_date>2024-04-29</creation_date>
+                <deadline>2025-03-25</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 12</TaskTitle>
+                <TaskDescription>Description for task 94</TaskDescription>
+                <creation_date>2024-03-29</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 71</TaskTitle>
+                <TaskDescription>Description for task 95</TaskDescription>
+                <creation_date>2024-04-02</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 85</TaskTitle>
+                <TaskDescription>Description for task 97</TaskDescription>
+                <creation_date>2025-02-06</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 35</TaskTitle>
+                <TaskDescription>Description for task 7</TaskDescription>
+                <creation_date>2024-07-22</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 91</TaskTitle>
+                <TaskDescription>Description for task 13</TaskDescription>
+                <creation_date>2024-06-21</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 26</TaskTitle>
+                <TaskDescription>Description for task 24</TaskDescription>
+                <creation_date>2024-10-30</creation_date>
+                <deadline>2025-03-18</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 23</TaskTitle>
+                <TaskDescription>Description for task 52</TaskDescription>
+                <creation_date>2025-03-02</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 51</TaskTitle>
+                <TaskDescription>Description for task 54</TaskDescription>
+                <creation_date>2025-02-05</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 30</TaskTitle>
+                <TaskDescription>Description for task 55</TaskDescription>
+                <creation_date>2025-03-10</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 55</TaskTitle>
+                <TaskDescription>Description for task 58</TaskDescription>
+                <creation_date>2024-04-29</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 50</TaskTitle>
+                <TaskDescription>Description for task 66</TaskDescription>
+                <creation_date>2024-07-12</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 9</TaskTitle>
+                <TaskDescription>Description for task 75</TaskDescription>
+                <creation_date>2025-02-11</creation_date>
+                <deadline>2025-04-04</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 59</TaskTitle>
+                <TaskDescription>Description for task 77</TaskDescription>
+                <creation_date>2024-08-29</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 46</TaskTitle>
+                <TaskDescription>Description for task 2</TaskDescription>
+                <creation_date>2025-03-14</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 81</TaskTitle>
+                <TaskDescription>Description for task 13</TaskDescription>
+                <creation_date>2024-04-16</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 69</TaskTitle>
+                <TaskDescription>Description for task 14</TaskDescription>
+                <creation_date>2024-06-28</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 22</TaskTitle>
+                <TaskDescription>Description for task 25</TaskDescription>
+                <creation_date>2024-10-17</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 77</TaskTitle>
+                <TaskDescription>Description for task 53</TaskDescription>
+                <creation_date>2025-01-04</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 92</TaskTitle>
+                <TaskDescription>Description for task 67</TaskDescription>
+                <creation_date>2025-03-04</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 47</TaskTitle>
+                <TaskDescription>Description for task 74</TaskDescription>
+                <creation_date>2024-06-30</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 66</TaskTitle>
+                <TaskDescription>Description for task 76</TaskDescription>
+                <creation_date>2024-10-13</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 28</TaskTitle>
+                <TaskDescription>Description for task 81</TaskDescription>
+                <creation_date>2025-03-09</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>31</Total>
+                <NewTasks>0</NewTasks>
+                <InProgressTasks>11</InProgressTasks>
+                <CompletedTasks>10</CompletedTasks>
+                <CancelledTasks>10</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>Мобильное приложение</ProjectTitle>
+        <start_date>2025-04-01</start_date>
+        <deadline>2025-10-01</deadline>
+        <ManagerName>Дмитрий Васильев</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Создание UI</TaskTitle>
+                <TaskDescription>Разработать интерфейс</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>New</status>
+                <type>Frontend</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 60</TaskTitle>
+                <TaskDescription>Description for task 2</TaskDescription>
+                <creation_date>2024-09-28</creation_date>
+                <deadline>2025-03-18</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 28</TaskTitle>
+                <TaskDescription>Description for task 5</TaskDescription>
+                <creation_date>2025-02-23</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 83</TaskTitle>
+                <TaskDescription>Description for task 9</TaskDescription>
+                <creation_date>2024-10-11</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 1</TaskTitle>
+                <TaskDescription>Description for task 18</TaskDescription>
+                <creation_date>2024-10-24</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 68</TaskTitle>
+                <TaskDescription>Description for task 41</TaskDescription>
+                <creation_date>2024-12-18</creation_date>
+                <deadline>2025-04-04</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 51</TaskTitle>
+                <TaskDescription>Description for task 42</TaskDescription>
+                <creation_date>2024-12-26</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 26</TaskTitle>
+                <TaskDescription>Description for task 84</TaskDescription>
+                <creation_date>2024-11-30</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 54</TaskTitle>
+                <TaskDescription>Description for task 85</TaskDescription>
+                <creation_date>2024-12-29</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 20</TaskTitle>
+                <TaskDescription>Description for task 90</TaskDescription>
+                <creation_date>2024-12-11</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 95</TaskTitle>
+                <TaskDescription>Description for task 91</TaskDescription>
+                <creation_date>2024-10-10</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 27</TaskTitle>
+                <TaskDescription>Description for task 37</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 40</TaskTitle>
+                <TaskDescription>Description for task 49</TaskDescription>
+                <creation_date>2024-07-26</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 93</TaskTitle>
+                <TaskDescription>Description for task 89</TaskDescription>
+                <creation_date>2024-06-16</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 82</TaskTitle>
+                <TaskDescription>Description for task 92</TaskDescription>
+                <creation_date>2024-07-27</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 74</TaskTitle>
+                <TaskDescription>Description for task 8</TaskDescription>
+                <creation_date>2024-06-02</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 73</TaskTitle>
+                <TaskDescription>Description for task 11</TaskDescription>
+                <creation_date>2024-12-02</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 31</TaskTitle>
+                <TaskDescription>Description for task 16</TaskDescription>
+                <creation_date>2025-02-15</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 64</TaskTitle>
+                <TaskDescription>Description for task 26</TaskDescription>
+                <creation_date>2024-12-10</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 8</TaskTitle>
+                <TaskDescription>Description for task 44</TaskDescription>
+                <creation_date>2024-11-24</creation_date>
+                <deadline>2025-04-03</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 70</TaskTitle>
+                <TaskDescription>Description for task 51</TaskDescription>
+                <creation_date>2024-10-05</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 49</TaskTitle>
+                <TaskDescription>Description for task 66</TaskDescription>
+                <creation_date>2024-07-14</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 19</TaskTitle>
+                <TaskDescription>Description for task 95</TaskDescription>
+                <creation_date>2024-04-14</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>23</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>10</InProgressTasks>
+                <CompletedTasks>8</CompletedTasks>
+                <CancelledTasks>4</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>Корпоративный портал</ProjectTitle>
+        <start_date>2025-02-15</start_date>
+        <deadline>2025-08-15</deadline>
+        <ManagerName>Виктор Тихонов</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Разработка логики</TaskTitle>
+                <TaskDescription>Написать бизнес-логику</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-04-15</deadline>
+                <status>New</status>
+                <type>Backend</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 99</TaskTitle>
+                <TaskDescription>Description for task 17</TaskDescription>
+                <creation_date>2024-04-16</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 30</TaskTitle>
+                <TaskDescription>Description for task 32</TaskDescription>
+                <creation_date>2024-07-02</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 98</TaskTitle>
+                <TaskDescription>Description for task 33</TaskDescription>
+                <creation_date>2024-06-07</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 8</TaskTitle>
+                <TaskDescription>Description for task 37</TaskDescription>
+                <creation_date>2025-01-18</creation_date>
+                <deadline>2025-04-04</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 81</TaskTitle>
+                <TaskDescription>Description for task 45</TaskDescription>
+                <creation_date>2024-08-19</creation_date>
+                <deadline>2025-03-25</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 80</TaskTitle>
+                <TaskDescription>Description for task 49</TaskDescription>
+                <creation_date>2024-06-28</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 38</TaskTitle>
+                <TaskDescription>Description for task 51</TaskDescription>
+                <creation_date>2024-12-16</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 72</TaskTitle>
+                <TaskDescription>Description for task 52</TaskDescription>
+                <creation_date>2024-10-06</creation_date>
+                <deadline>2025-03-29</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 50</TaskTitle>
+                <TaskDescription>Description for task 55</TaskDescription>
+                <creation_date>2024-04-13</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 35</TaskTitle>
+                <TaskDescription>Description for task 57</TaskDescription>
+                <creation_date>2024-07-27</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 37</TaskTitle>
+                <TaskDescription>Description for task 68</TaskDescription>
+                <creation_date>2024-07-12</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 63</TaskTitle>
+                <TaskDescription>Description for task 74</TaskDescription>
+                <creation_date>2025-01-12</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 82</TaskTitle>
+                <TaskDescription>Description for task 79</TaskDescription>
+                <creation_date>2024-10-12</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 10</TaskTitle>
+                <TaskDescription>Description for task 80</TaskDescription>
+                <creation_date>2024-07-06</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 64</TaskTitle>
+                <TaskDescription>Description for task 4</TaskDescription>
+                <creation_date>2024-06-17</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 48</TaskTitle>
+                <TaskDescription>Description for task 16</TaskDescription>
+                <creation_date>2024-04-06</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 63</TaskTitle>
+                <TaskDescription>Description for task 30</TaskDescription>
+                <creation_date>2024-06-04</creation_date>
+                <deadline>2025-03-25</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 77</TaskTitle>
+                <TaskDescription>Description for task 34</TaskDescription>
+                <creation_date>2025-02-19</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 38</TaskTitle>
+                <TaskDescription>Description for task 56</TaskDescription>
+                <creation_date>2024-04-06</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 13</TaskTitle>
+                <TaskDescription>Description for task 81</TaskDescription>
+                <creation_date>2024-12-18</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 29</TaskTitle>
+                <TaskDescription>Description for task 85</TaskDescription>
+                <creation_date>2024-08-21</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 36</TaskTitle>
+                <TaskDescription>Description for task 90</TaskDescription>
+                <creation_date>2025-03-09</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 71</TaskTitle>
+                <TaskDescription>Description for task 93</TaskDescription>
+                <creation_date>2024-04-01</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 79</TaskTitle>
+                <TaskDescription>Description for task 36</TaskDescription>
+                <creation_date>2024-07-25</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 44</TaskTitle>
+                <TaskDescription>Description for task 43</TaskDescription>
+                <creation_date>2024-10-29</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 90</TaskTitle>
+                <TaskDescription>Description for task 48</TaskDescription>
+                <creation_date>2024-08-15</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 40</TaskTitle>
+                <TaskDescription>Description for task 50</TaskDescription>
+                <creation_date>2024-07-14</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 99</TaskTitle>
+                <TaskDescription>Description for task 65</TaskDescription>
+                <creation_date>2025-02-16</creation_date>
+                <deadline>2025-03-25</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 14</TaskTitle>
+                <TaskDescription>Description for task 75</TaskDescription>
+                <creation_date>2024-06-26</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 16</TaskTitle>
+                <TaskDescription>Description for task 98</TaskDescription>
+                <creation_date>2024-10-07</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 59</TaskTitle>
+                <TaskDescription>Description for task 99</TaskDescription>
+                <creation_date>2024-04-16</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>32</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>14</InProgressTasks>
+                <CompletedTasks>8</CompletedTasks>
+                <CancelledTasks>9</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>Система аналитики</ProjectTitle>
+        <start_date>2025-05-01</start_date>
+        <deadline>2025-11-01</deadline>
+        <ManagerName>Петр Петров</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Тестирование</TaskTitle>
+                <TaskDescription>Разработать тесты</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-04-20</deadline>
+                <status>New</status>
+                <type>Testing</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 48</TaskTitle>
+                <TaskDescription>Description for task 6</TaskDescription>
+                <creation_date>2024-07-20</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 75</TaskTitle>
+                <TaskDescription>Description for task 8</TaskDescription>
+                <creation_date>2024-07-28</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 7</TaskTitle>
+                <TaskDescription>Description for task 11</TaskDescription>
+                <creation_date>2024-08-30</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 66</TaskTitle>
+                <TaskDescription>Description for task 15</TaskDescription>
+                <creation_date>2024-12-11</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 79</TaskTitle>
+                <TaskDescription>Description for task 25</TaskDescription>
+                <creation_date>2024-10-18</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 14</TaskTitle>
+                <TaskDescription>Description for task 27</TaskDescription>
+                <creation_date>2025-01-04</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 9</TaskTitle>
+                <TaskDescription>Description for task 44</TaskDescription>
+                <creation_date>2024-05-10</creation_date>
+                <deadline>2025-04-04</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 15</TaskTitle>
+                <TaskDescription>Description for task 46</TaskDescription>
+                <creation_date>2025-03-11</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 87</TaskTitle>
+                <TaskDescription>Description for task 53</TaskDescription>
+                <creation_date>2024-07-21</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 69</TaskTitle>
+                <TaskDescription>Description for task 70</TaskDescription>
+                <creation_date>2025-01-23</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 49</TaskTitle>
+                <TaskDescription>Description for task 72</TaskDescription>
+                <creation_date>2024-03-20</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 65</TaskTitle>
+                <TaskDescription>Description for task 82</TaskDescription>
+                <creation_date>2024-04-05</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 11</TaskTitle>
+                <TaskDescription>Description for task 88</TaskDescription>
+                <creation_date>2024-05-09</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 97</TaskTitle>
+                <TaskDescription>Description for task 93</TaskDescription>
+                <creation_date>2024-11-04</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 86</TaskTitle>
+                <TaskDescription>Description for task 100</TaskDescription>
+                <creation_date>2025-03-12</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 47</TaskTitle>
+                <TaskDescription>Description for task 19</TaskDescription>
+                <creation_date>2024-12-18</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 8</TaskTitle>
+                <TaskDescription>Description for task 20</TaskDescription>
+                <creation_date>2024-07-08</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 19</TaskTitle>
+                <TaskDescription>Description for task 21</TaskDescription>
+                <creation_date>2025-01-19</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 12</TaskTitle>
+                <TaskDescription>Description for task 36</TaskDescription>
+                <creation_date>2024-11-07</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 62</TaskTitle>
+                <TaskDescription>Description for task 41</TaskDescription>
+                <creation_date>2025-01-30</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 76</TaskTitle>
+                <TaskDescription>Description for task 46</TaskDescription>
+                <creation_date>2025-03-02</creation_date>
+                <deadline>2025-03-18</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 72</TaskTitle>
+                <TaskDescription>Description for task 48</TaskDescription>
+                <creation_date>2024-06-28</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 78</TaskTitle>
+                <TaskDescription>Description for task 68</TaskDescription>
+                <creation_date>2024-08-08</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 67</TaskTitle>
+                <TaskDescription>Description for task 86</TaskDescription>
+                <creation_date>2024-04-13</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 57</TaskTitle>
+                <TaskDescription>Description for task 99</TaskDescription>
+                <creation_date>2025-02-11</creation_date>
+                <deadline>2025-03-29</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 43</TaskTitle>
+                <TaskDescription>Description for task 1</TaskDescription>
+                <creation_date>2024-10-18</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 15</TaskTitle>
+                <TaskDescription>Description for task 23</TaskDescription>
+                <creation_date>2024-09-18</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 42</TaskTitle>
+                <TaskDescription>Description for task 33</TaskDescription>
+                <creation_date>2025-01-06</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 55</TaskTitle>
+                <TaskDescription>Description for task 46</TaskDescription>
+                <creation_date>2025-01-02</creation_date>
+                <deadline>2025-04-03</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 78</TaskTitle>
+                <TaskDescription>Description for task 71</TaskDescription>
+                <creation_date>2024-03-18</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 62</TaskTitle>
+                <TaskDescription>Description for task 97</TaskDescription>
+                <creation_date>2024-07-11</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>32</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>15</InProgressTasks>
+                <CompletedTasks>6</CompletedTasks>
+                <CancelledTasks>10</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>Интернет-магазин</ProjectTitle>
+        <start_date>2025-03-15</start_date>
+        <deadline>2025-07-15</deadline>
+        <ManagerName>Дмитрий Васильев</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Документирование</TaskTitle>
+                <TaskDescription>Создать документацию</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-04-25</deadline>
+                <status>New</status>
+                <type>Documentation</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 73</TaskTitle>
+                <TaskDescription>Description for task 1</TaskDescription>
+                <creation_date>2025-01-31</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 53</TaskTitle>
+                <TaskDescription>Description for task 60</TaskDescription>
+                <creation_date>2024-08-13</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 55</TaskTitle>
+                <TaskDescription>Description for task 61</TaskDescription>
+                <creation_date>2024-10-25</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 4</TaskTitle>
+                <TaskDescription>Description for task 69</TaskDescription>
+                <creation_date>2024-03-27</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 36</TaskTitle>
+                <TaskDescription>Description for task 81</TaskDescription>
+                <creation_date>2024-08-11</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 25</TaskTitle>
+                <TaskDescription>Description for task 99</TaskDescription>
+                <creation_date>2024-10-15</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 18</TaskTitle>
+                <TaskDescription>Description for task 3</TaskDescription>
+                <creation_date>2024-10-02</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 10</TaskTitle>
+                <TaskDescription>Description for task 8</TaskDescription>
+                <creation_date>2025-01-03</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 3</TaskTitle>
+                <TaskDescription>Description for task 10</TaskDescription>
+                <creation_date>2024-09-17</creation_date>
+                <deadline>2025-04-01</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 94</TaskTitle>
+                <TaskDescription>Description for task 17</TaskDescription>
+                <creation_date>2024-08-14</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 58</TaskTitle>
+                <TaskDescription>Description for task 23</TaskDescription>
+                <creation_date>2025-01-11</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 87</TaskTitle>
+                <TaskDescription>Description for task 28</TaskDescription>
+                <creation_date>2024-07-24</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 61</TaskTitle>
+                <TaskDescription>Description for task 31</TaskDescription>
+                <creation_date>2024-08-24</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 42</TaskTitle>
+                <TaskDescription>Description for task 38</TaskDescription>
+                <creation_date>2025-02-03</creation_date>
+                <deadline>2025-04-04</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 90</TaskTitle>
+                <TaskDescription>Description for task 40</TaskDescription>
+                <creation_date>2024-08-10</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 44</TaskTitle>
+                <TaskDescription>Description for task 51</TaskDescription>
+                <creation_date>2024-08-13</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 33</TaskTitle>
+                <TaskDescription>Description for task 60</TaskDescription>
+                <creation_date>2024-12-15</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 37</TaskTitle>
+                <TaskDescription>Description for task 63</TaskDescription>
+                <creation_date>2024-05-09</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 11</TaskTitle>
+                <TaskDescription>Description for task 70</TaskDescription>
+                <creation_date>2025-01-24</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 43</TaskTitle>
+                <TaskDescription>Description for task 94</TaskDescription>
+                <creation_date>2024-10-04</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 49</TaskTitle>
+                <TaskDescription>Description for task 96</TaskDescription>
+                <creation_date>2024-09-12</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 89</TaskTitle>
+                <TaskDescription>Description for task 3</TaskDescription>
+                <creation_date>2024-10-20</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 53</TaskTitle>
+                <TaskDescription>Description for task 5</TaskDescription>
+                <creation_date>2025-02-04</creation_date>
+                <deadline>2025-04-07</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 83</TaskTitle>
+                <TaskDescription>Description for task 9</TaskDescription>
+                <creation_date>2024-10-05</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 25</TaskTitle>
+                <TaskDescription>Description for task 27</TaskDescription>
+                <creation_date>2024-11-06</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 26</TaskTitle>
+                <TaskDescription>Description for task 30</TaskDescription>
+                <creation_date>2024-07-26</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 100</TaskTitle>
+                <TaskDescription>Description for task 39</TaskDescription>
+                <creation_date>2024-11-16</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 63</TaskTitle>
+                <TaskDescription>Description for task 41</TaskDescription>
+                <creation_date>2024-06-27</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 33</TaskTitle>
+                <TaskDescription>Description for task 80</TaskDescription>
+                <creation_date>2024-07-12</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 54</TaskTitle>
+                <TaskDescription>Description for task 84</TaskDescription>
+                <creation_date>2024-11-03</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>31</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>6</InProgressTasks>
+                <CompletedTasks>9</CompletedTasks>
+                <CancelledTasks>15</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>ERP-система</ProjectTitle>
+        <start_date>2025-06-01</start_date>
+        <deadline>2025-12-01</deadline>
+        <ManagerName>Виктор Тихонов</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Развертывание</TaskTitle>
+                <TaskDescription>Настроить сервер</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-04-30</deadline>
+                <status>New</status>
+                <type>DevOps</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 21</TaskTitle>
+                <TaskDescription>Description for task 3</TaskDescription>
+                <creation_date>2024-10-12</creation_date>
+                <deadline>2025-03-25</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 5</TaskTitle>
+                <TaskDescription>Description for task 13</TaskDescription>
+                <creation_date>2025-02-16</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 23</TaskTitle>
+                <TaskDescription>Description for task 24</TaskDescription>
+                <creation_date>2024-12-28</creation_date>
+                <deadline>2025-04-07</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 41</TaskTitle>
+                <TaskDescription>Description for task 34</TaskDescription>
+                <creation_date>2024-11-02</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 13</TaskTitle>
+                <TaskDescription>Description for task 36</TaskDescription>
+                <creation_date>2025-02-23</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 78</TaskTitle>
+                <TaskDescription>Description for task 38</TaskDescription>
+                <creation_date>2024-08-17</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 90</TaskTitle>
+                <TaskDescription>Description for task 62</TaskDescription>
+                <creation_date>2024-05-10</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 89</TaskTitle>
+                <TaskDescription>Description for task 98</TaskDescription>
+                <creation_date>2024-11-26</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 52</TaskTitle>
+                <TaskDescription>Description for task 1</TaskDescription>
+                <creation_date>2025-01-16</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 68</TaskTitle>
+                <TaskDescription>Description for task 2</TaskDescription>
+                <creation_date>2024-08-11</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 86</TaskTitle>
+                <TaskDescription>Description for task 9</TaskDescription>
+                <creation_date>2025-03-01</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 89</TaskTitle>
+                <TaskDescription>Description for task 22</TaskDescription>
+                <creation_date>2024-05-07</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 80</TaskTitle>
+                <TaskDescription>Description for task 25</TaskDescription>
+                <creation_date>2024-04-26</creation_date>
+                <deadline>2025-03-29</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 99</TaskTitle>
+                <TaskDescription>Description for task 26</TaskDescription>
+                <creation_date>2024-06-09</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 69</TaskTitle>
+                <TaskDescription>Description for task 44</TaskDescription>
+                <creation_date>2024-11-05</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 54</TaskTitle>
+                <TaskDescription>Description for task 61</TaskDescription>
+                <creation_date>2024-04-09</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 60</TaskTitle>
+                <TaskDescription>Description for task 64</TaskDescription>
+                <creation_date>2024-09-02</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 85</TaskTitle>
+                <TaskDescription>Description for task 88</TaskDescription>
+                <creation_date>2024-06-01</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 2</TaskTitle>
+                <TaskDescription>Description for task 97</TaskDescription>
+                <creation_date>2025-01-12</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 10</TaskTitle>
+                <TaskDescription>Description for task 10</TaskDescription>
+                <creation_date>2024-03-23</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 86</TaskTitle>
+                <TaskDescription>Description for task 12</TaskDescription>
+                <creation_date>2024-07-08</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 72</TaskTitle>
+                <TaskDescription>Description for task 18</TaskDescription>
+                <creation_date>2025-01-23</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 68</TaskTitle>
+                <TaskDescription>Description for task 24</TaskDescription>
+                <creation_date>2024-12-08</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 87</TaskTitle>
+                <TaskDescription>Description for task 28</TaskDescription>
+                <creation_date>2024-05-31</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 1</TaskTitle>
+                <TaskDescription>Description for task 31</TaskDescription>
+                <creation_date>2024-09-17</creation_date>
+                <deadline>2025-04-01</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 9</TaskTitle>
+                <TaskDescription>Description for task 34</TaskDescription>
+                <creation_date>2024-08-04</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 23</TaskTitle>
+                <TaskDescription>Description for task 49</TaskDescription>
+                <creation_date>2025-02-05</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 6</TaskTitle>
+                <TaskDescription>Description for task 58</TaskDescription>
+                <creation_date>2024-04-10</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 3</TaskTitle>
+                <TaskDescription>Description for task 60</TaskDescription>
+                <creation_date>2024-06-01</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 4</TaskTitle>
+                <TaskDescription>Description for task 70</TaskDescription>
+                <creation_date>2024-12-11</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 85</TaskTitle>
+                <TaskDescription>Description for task 82</TaskDescription>
+                <creation_date>2024-05-25</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 27</TaskTitle>
+                <TaskDescription>Description for task 87</TaskDescription>
+                <creation_date>2024-11-27</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 60</TaskTitle>
+                <TaskDescription>Description for task 96</TaskDescription>
+                <creation_date>2024-11-12</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>34</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>8</InProgressTasks>
+                <CompletedTasks>14</CompletedTasks>
+                <CancelledTasks>11</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>HRM-система</ProjectTitle>
+        <start_date>2025-07-01</start_date>
+        <deadline>2026-01-01</deadline>
+        <ManagerName>Петр Петров</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Обратная связь</TaskTitle>
+                <TaskDescription>Собрать отзывы</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-05-01</deadline>
+                <status>New</status>
+                <type>Support</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 52</TaskTitle>
+                <TaskDescription>Description for task 4</TaskDescription>
+                <creation_date>2024-12-21</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 29</TaskTitle>
+                <TaskDescription>Description for task 12</TaskDescription>
+                <creation_date>2024-06-10</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 27</TaskTitle>
+                <TaskDescription>Description for task 19</TaskDescription>
+                <creation_date>2025-02-17</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 33</TaskTitle>
+                <TaskDescription>Description for task 23</TaskDescription>
+                <creation_date>2025-01-22</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 96</TaskTitle>
+                <TaskDescription>Description for task 30</TaskDescription>
+                <creation_date>2024-04-14</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 93</TaskTitle>
+                <TaskDescription>Description for task 47</TaskDescription>
+                <creation_date>2024-08-01</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 62</TaskTitle>
+                <TaskDescription>Description for task 64</TaskDescription>
+                <creation_date>2025-01-25</creation_date>
+                <deadline>2025-04-04</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 2</TaskTitle>
+                <TaskDescription>Description for task 77</TaskDescription>
+                <creation_date>2025-02-23</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 7</TaskTitle>
+                <TaskDescription>Description for task 5</TaskDescription>
+                <creation_date>2025-03-08</creation_date>
+                <deadline>2025-03-18</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 97</TaskTitle>
+                <TaskDescription>Description for task 14</TaskDescription>
+                <creation_date>2024-08-24</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 83</TaskTitle>
+                <TaskDescription>Description for task 27</TaskDescription>
+                <creation_date>2024-06-03</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 31</TaskTitle>
+                <TaskDescription>Description for task 45</TaskDescription>
+                <creation_date>2024-07-01</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 73</TaskTitle>
+                <TaskDescription>Description for task 47</TaskDescription>
+                <creation_date>2025-03-15</creation_date>
+                <deadline>2025-04-01</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 46</TaskTitle>
+                <TaskDescription>Description for task 65</TaskDescription>
+                <creation_date>2024-05-27</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 32</TaskTitle>
+                <TaskDescription>Description for task 76</TaskDescription>
+                <creation_date>2024-12-26</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 6</TaskTitle>
+                <TaskDescription>Description for task 79</TaskDescription>
+                <creation_date>2024-05-02</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 56</TaskTitle>
+                <TaskDescription>Description for task 80</TaskDescription>
+                <creation_date>2024-06-16</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 12</TaskTitle>
+                <TaskDescription>Description for task 17</TaskDescription>
+                <creation_date>2024-03-26</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 71</TaskTitle>
+                <TaskDescription>Description for task 19</TaskDescription>
+                <creation_date>2024-07-01</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 5</TaskTitle>
+                <TaskDescription>Description for task 29</TaskDescription>
+                <creation_date>2024-09-15</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 56</TaskTitle>
+                <TaskDescription>Description for task 32</TaskDescription>
+                <creation_date>2024-11-23</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 97</TaskTitle>
+                <TaskDescription>Description for task 45</TaskDescription>
+                <creation_date>2025-02-25</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 95</TaskTitle>
+                <TaskDescription>Description for task 55</TaskDescription>
+                <creation_date>2024-03-22</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 52</TaskTitle>
+                <TaskDescription>Description for task 88</TaskDescription>
+                <creation_date>2024-12-06</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 57</TaskTitle>
+                <TaskDescription>Description for task 90</TaskDescription>
+                <creation_date>2025-02-07</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>26</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>8</InProgressTasks>
+                <CompletedTasks>8</CompletedTasks>
+                <CancelledTasks>9</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>Система учета</ProjectTitle>
+        <start_date>2025-08-01</start_date>
+        <deadline>2026-02-01</deadline>
+        <ManagerName>Дмитрий Васильев</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Оптимизация</TaskTitle>
+                <TaskDescription>Оптимизировать код</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-05-05</deadline>
+                <status>New</status>
+                <type>Performance</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 74</TaskTitle>
+                <TaskDescription>Description for task 16</TaskDescription>
+                <creation_date>2024-04-13</creation_date>
+                <deadline>2025-04-04</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 18</TaskTitle>
+                <TaskDescription>Description for task 21</TaskDescription>
+                <creation_date>2024-11-05</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 3</TaskTitle>
+                <TaskDescription>Description for task 26</TaskDescription>
+                <creation_date>2024-12-17</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 61</TaskTitle>
+                <TaskDescription>Description for task 28</TaskDescription>
+                <creation_date>2025-01-08</creation_date>
+                <deadline>2025-04-07</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 64</TaskTitle>
+                <TaskDescription>Description for task 29</TaskDescription>
+                <creation_date>2024-08-28</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 22</TaskTitle>
+                <TaskDescription>Description for task 31</TaskDescription>
+                <creation_date>2024-08-05</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 88</TaskTitle>
+                <TaskDescription>Description for task 39</TaskDescription>
+                <creation_date>2024-07-27</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 31</TaskTitle>
+                <TaskDescription>Description for task 43</TaskDescription>
+                <creation_date>2024-10-02</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 57</TaskTitle>
+                <TaskDescription>Description for task 50</TaskDescription>
+                <creation_date>2024-06-28</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 92</TaskTitle>
+                <TaskDescription>Description for task 54</TaskDescription>
+                <creation_date>2024-10-27</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 70</TaskTitle>
+                <TaskDescription>Description for task 56</TaskDescription>
+                <creation_date>2024-11-17</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 17</TaskTitle>
+                <TaskDescription>Description for task 59</TaskDescription>
+                <creation_date>2024-10-11</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 77</TaskTitle>
+                <TaskDescription>Description for task 65</TaskDescription>
+                <creation_date>2025-01-29</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 42</TaskTitle>
+                <TaskDescription>Description for task 86</TaskDescription>
+                <creation_date>2024-03-25</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 53</TaskTitle>
+                <TaskDescription>Description for task 35</TaskDescription>
+                <creation_date>2024-07-30</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 28</TaskTitle>
+                <TaskDescription>Description for task 39</TaskDescription>
+                <creation_date>2024-04-01</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 74</TaskTitle>
+                <TaskDescription>Description for task 50</TaskDescription>
+                <creation_date>2024-06-22</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 4</TaskTitle>
+                <TaskDescription>Description for task 59</TaskDescription>
+                <creation_date>2024-06-09</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 45</TaskTitle>
+                <TaskDescription>Description for task 62</TaskDescription>
+                <creation_date>2024-06-27</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 34</TaskTitle>
+                <TaskDescription>Description for task 67</TaskDescription>
+                <creation_date>2024-08-08</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 22</TaskTitle>
+                <TaskDescription>Description for task 71</TaskDescription>
+                <creation_date>2024-11-08</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 66</TaskTitle>
+                <TaskDescription>Description for task 72</TaskDescription>
+                <creation_date>2024-05-10</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 84</TaskTitle>
+                <TaskDescription>Description for task 74</TaskDescription>
+                <creation_date>2024-05-12</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 39</TaskTitle>
+                <TaskDescription>Description for task 83</TaskDescription>
+                <creation_date>2024-07-20</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 98</TaskTitle>
+                <TaskDescription>Description for task 87</TaskDescription>
+                <creation_date>2024-09-11</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 24</TaskTitle>
+                <TaskDescription>Description for task 95</TaskDescription>
+                <creation_date>2024-12-04</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 65</TaskTitle>
+                <TaskDescription>Description for task 98</TaskDescription>
+                <creation_date>2024-09-16</creation_date>
+                <deadline>2025-04-07</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 96</TaskTitle>
+                <TaskDescription>Description for task 100</TaskDescription>
+                <creation_date>2024-11-19</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 24</TaskTitle>
+                <TaskDescription>Description for task 6</TaskDescription>
+                <creation_date>2024-07-06</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 50</TaskTitle>
+                <TaskDescription>Description for task 7</TaskDescription>
+                <creation_date>2024-06-09</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 21</TaskTitle>
+                <TaskDescription>Description for task 21</TaskDescription>
+                <creation_date>2024-03-19</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 2</TaskTitle>
+                <TaskDescription>Description for task 35</TaskDescription>
+                <creation_date>2025-02-06</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 32</TaskTitle>
+                <TaskDescription>Description for task 37</TaskDescription>
+                <creation_date>2024-08-01</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 37</TaskTitle>
+                <TaskDescription>Description for task 47</TaskDescription>
+                <creation_date>2024-06-01</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 75</TaskTitle>
+                <TaskDescription>Description for task 52</TaskDescription>
+                <creation_date>2024-06-19</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 51</TaskTitle>
+                <TaskDescription>Description for task 56</TaskDescription>
+                <creation_date>2024-12-31</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 38</TaskTitle>
+                <TaskDescription>Description for task 57</TaskDescription>
+                <creation_date>2024-07-26</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 39</TaskTitle>
+                <TaskDescription>Description for task 63</TaskDescription>
+                <creation_date>2025-02-21</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 96</TaskTitle>
+                <TaskDescription>Description for task 79</TaskDescription>
+                <creation_date>2024-06-01</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 48</TaskTitle>
+                <TaskDescription>Description for task 83</TaskDescription>
+                <creation_date>2024-08-29</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 80</TaskTitle>
+                <TaskDescription>Description for task 93</TaskDescription>
+                <creation_date>2024-05-11</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>42</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>14</InProgressTasks>
+                <CompletedTasks>13</CompletedTasks>
+                <CancelledTasks>14</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>Платформа IoT</ProjectTitle>
+        <start_date>2025-09-01</start_date>
+        <deadline>2026-03-01</deadline>
+        <ManagerName>Виктор Тихонов</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Интеграция</TaskTitle>
+                <TaskDescription>Связать с внешними сервисами</TaskDescription>
+                <creation_date>2025-02-10</creation_date>
+                <deadline>2025-05-10</deadline>
+                <status>New</status>
+                <type>Integration</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 56</TaskTitle>
+                <TaskDescription>Description for task 20</TaskDescription>
+                <creation_date>2024-08-23</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 45</TaskTitle>
+                <TaskDescription>Description for task 63</TaskDescription>
+                <creation_date>2024-04-23</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 91</TaskTitle>
+                <TaskDescription>Description for task 76</TaskDescription>
+                <creation_date>2024-10-10</creation_date>
+                <deadline>2025-03-22</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 6</TaskTitle>
+                <TaskDescription>Description for task 87</TaskDescription>
+                <creation_date>2024-11-01</creation_date>
+                <deadline>2025-03-21</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 84</TaskTitle>
+                <TaskDescription>Description for task 92</TaskDescription>
+                <creation_date>2025-01-07</creation_date>
+                <deadline>2025-04-09</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 100</TaskTitle>
+                <TaskDescription>Description for task 96</TaskDescription>
+                <creation_date>2024-12-15</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 1</TaskTitle>
+                <TaskDescription>Description for task 6</TaskDescription>
+                <creation_date>2024-11-02</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 100</TaskTitle>
+                <TaskDescription>Description for task 29</TaskDescription>
+                <creation_date>2024-04-18</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 20</TaskTitle>
+                <TaskDescription>Description for task 43</TaskDescription>
+                <creation_date>2024-11-03</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Мария Кузнецова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 15</TaskTitle>
+                <TaskDescription>Description for task 53</TaskDescription>
+                <creation_date>2024-12-16</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 95</TaskTitle>
+                <TaskDescription>Description for task 69</TaskDescription>
+                <creation_date>2025-02-08</creation_date>
+                <deadline>2025-03-17</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 79</TaskTitle>
+                <TaskDescription>Description for task 82</TaskDescription>
+                <creation_date>2024-04-19</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 17</TaskTitle>
+                <TaskDescription>Description for task 91</TaskDescription>
+                <creation_date>2024-11-27</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 94</TaskTitle>
+                <TaskDescription>Description for task 4</TaskDescription>
+                <creation_date>2024-04-05</creation_date>
+                <deadline>2025-03-25</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 41</TaskTitle>
+                <TaskDescription>Description for task 38</TaskDescription>
+                <creation_date>2024-06-26</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 82</TaskTitle>
+                <TaskDescription>Description for task 59</TaskDescription>
+                <creation_date>2025-03-01</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 35</TaskTitle>
+                <TaskDescription>Description for task 61</TaskDescription>
+                <creation_date>2024-05-25</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 67</TaskTitle>
+                <TaskDescription>Description for task 68</TaskDescription>
+                <creation_date>2024-12-23</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 58</TaskTitle>
+                <TaskDescription>Description for task 69</TaskDescription>
+                <creation_date>2025-03-02</creation_date>
+                <deadline>2025-03-18</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 13</TaskTitle>
+                <TaskDescription>Description for task 85</TaskDescription>
+                <creation_date>2024-11-13</creation_date>
+                <deadline>2025-03-24</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 91</TaskTitle>
+                <TaskDescription>Description for task 89</TaskDescription>
+                <creation_date>2025-01-09</creation_date>
+                <deadline>2025-04-03</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 30</TaskTitle>
+                <TaskDescription>Description for task 91</TaskDescription>
+                <creation_date>2024-09-27</creation_date>
+                <deadline>2025-03-30</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 61</TaskTitle>
+                <TaskDescription>Description for task 92</TaskDescription>
+                <creation_date>2024-05-04</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 45</TaskTitle>
+                <TaskDescription>Description for task 94</TaskDescription>
+                <creation_date>2024-03-27</creation_date>
+                <deadline>2025-04-07</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>25</Total>
+                <NewTasks>1</NewTasks>
+                <InProgressTasks>6</InProgressTasks>
+                <CompletedTasks>11</CompletedTasks>
+                <CancelledTasks>7</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+    <Project>
+        <ProjectTitle>Система мониторинга</ProjectTitle>
+        <start_date>2025-10-01</start_date>
+        <deadline>2026-04-01</deadline>
+        <ManagerName>Петр Петров</ManagerName>
+        <Tasks>
+            <Task>
+                <TaskTitle>Task 32</TaskTitle>
+                <TaskDescription>Description for task 7</TaskDescription>
+                <creation_date>2024-05-29</creation_date>
+                <deadline>2025-03-28</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 59</TaskTitle>
+                <TaskDescription>Description for task 10</TaskDescription>
+                <creation_date>2025-01-15</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 47</TaskTitle>
+                <TaskDescription>Description for task 22</TaskDescription>
+                <creation_date>2024-04-10</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 40</TaskTitle>
+                <TaskDescription>Description for task 35</TaskDescription>
+                <creation_date>2024-07-29</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 46</TaskTitle>
+                <TaskDescription>Description for task 48</TaskDescription>
+                <creation_date>2024-07-26</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 58</TaskTitle>
+                <TaskDescription>Description for task 66</TaskDescription>
+                <creation_date>2025-02-18</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 43</TaskTitle>
+                <TaskDescription>Description for task 73</TaskDescription>
+                <creation_date>2024-09-30</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 76</TaskTitle>
+                <TaskDescription>Description for task 83</TaskDescription>
+                <creation_date>2025-02-17</creation_date>
+                <deadline>2025-03-19</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 39</TaskTitle>
+                <TaskDescription>Description for task 89</TaskDescription>
+                <creation_date>2024-04-28</creation_date>
+                <deadline>2025-03-27</deadline>
+                <status>In Progress</status>
+                <type>Improvement</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 81</TaskTitle>
+                <TaskDescription>Description for task 11</TaskDescription>
+                <creation_date>2024-06-16</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Дмитрий Васильев</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 16</TaskTitle>
+                <TaskDescription>Description for task 12</TaskDescription>
+                <creation_date>2024-08-04</creation_date>
+                <deadline>2025-03-26</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Петр Петров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 92</TaskTitle>
+                <TaskDescription>Description for task 15</TaskDescription>
+                <creation_date>2024-09-15</creation_date>
+                <deadline>2025-04-10</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Дмитрий Васильев</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 41</TaskTitle>
+                <TaskDescription>Description for task 18</TaskDescription>
+                <creation_date>2024-11-24</creation_date>
+                <deadline>2025-03-25</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 75</TaskTitle>
+                <TaskDescription>Description for task 32</TaskDescription>
+                <creation_date>2024-06-17</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 5</TaskTitle>
+                <TaskDescription>Description for task 33</TaskDescription>
+                <creation_date>2025-02-01</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Сергей Михайлов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 88</TaskTitle>
+                <TaskDescription>Description for task 42</TaskDescription>
+                <creation_date>2024-10-16</creation_date>
+                <deadline>2025-04-02</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 21</TaskTitle>
+                <TaskDescription>Description for task 57</TaskDescription>
+                <creation_date>2024-09-12</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 70</TaskTitle>
+                <TaskDescription>Description for task 73</TaskDescription>
+                <creation_date>2024-05-02</creation_date>
+                <deadline>2025-04-14</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 25</TaskTitle>
+                <TaskDescription>Description for task 78</TaskDescription>
+                <creation_date>2024-03-19</creation_date>
+                <deadline>2025-04-12</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Виктор Тихонов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 14</TaskTitle>
+                <TaskDescription>Description for task 84</TaskDescription>
+                <creation_date>2024-07-04</creation_date>
+                <deadline>2025-03-20</deadline>
+                <status>Cancelled</status>
+                <type>Feature</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 29</TaskTitle>
+                <TaskDescription>Description for task 15</TaskDescription>
+                <creation_date>2024-06-14</creation_date>
+                <deadline>2025-04-06</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 18</TaskTitle>
+                <TaskDescription>Description for task 20</TaskDescription>
+                <creation_date>2025-02-07</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 7</TaskTitle>
+                <TaskDescription>Description for task 22</TaskDescription>
+                <creation_date>2024-07-19</creation_date>
+                <deadline>2025-03-31</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 65</TaskTitle>
+                <TaskDescription>Description for task 40</TaskDescription>
+                <creation_date>2024-03-27</creation_date>
+                <deadline>2025-03-18</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 20</TaskTitle>
+                <TaskDescription>Description for task 42</TaskDescription>
+                <creation_date>2024-07-21</creation_date>
+                <deadline>2025-04-03</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Елена Орлова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 98</TaskTitle>
+                <TaskDescription>Description for task 54</TaskDescription>
+                <creation_date>2024-06-24</creation_date>
+                <deadline>2025-04-08</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Ольга Смирнова</CreatedBy>
+                <ExecutedBy>Анна Федорова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 11</TaskTitle>
+                <TaskDescription>Description for task 62</TaskDescription>
+                <creation_date>2024-06-16</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Елена Орлова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 17</TaskTitle>
+                <TaskDescription>Description for task 64</TaskDescription>
+                <creation_date>2024-11-19</creation_date>
+                <deadline>2025-04-13</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Виктор Тихонов</CreatedBy>
+                <ExecutedBy>Иван Иванов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 93</TaskTitle>
+                <TaskDescription>Description for task 72</TaskDescription>
+                <creation_date>2025-03-04</creation_date>
+                <deadline>2025-04-01</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 76</TaskTitle>
+                <TaskDescription>Description for task 73</TaskDescription>
+                <creation_date>2025-02-14</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Алексей Сидоров</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 88</TaskTitle>
+                <TaskDescription>Description for task 77</TaskDescription>
+                <creation_date>2024-12-27</creation_date>
+                <deadline>2025-04-05</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Анна Федорова</CreatedBy>
+                <ExecutedBy>Алексей Сидоров</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 36</TaskTitle>
+                <TaskDescription>Description for task 78</TaskDescription>
+                <creation_date>2024-11-23</creation_date>
+                <deadline>2025-03-23</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Петр Петров</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 84</TaskTitle>
+                <TaskDescription>Description for task 86</TaskDescription>
+                <creation_date>2024-09-12</creation_date>
+                <deadline>2025-04-11</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Иван Иванов</CreatedBy>
+                <ExecutedBy>Сергей Михайлов</ExecutedBy>
+            </Task>
+            <Task>
+                <TaskTitle>Task 34</TaskTitle>
+                <TaskDescription>Description for task 100</TaskDescription>
+                <creation_date>2025-02-28</creation_date>
+                <deadline>2025-03-16</deadline>
+                <status>Completed</status>
+                <type>Improvement</type>
+                <CreatedBy>Мария Кузнецова</CreatedBy>
+                <ExecutedBy>Ольга Смирнова</ExecutedBy>
+            </Task>
+        </Tasks>
+        <TaskSummary>
+            <TaskSummary>
+                <Total>34</Total>
+                <NewTasks>0</NewTasks>
+                <InProgressTasks>9</InProgressTasks>
+                <CompletedTasks>14</CompletedTasks>
+                <CancelledTasks>11</CancelledTasks>
+            </TaskSummary>
+        </TaskSummary>
+        <GeneratedAt>2025-05-19T18:22:10.477</GeneratedAt>
+    </Project>
+</Projects>

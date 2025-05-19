@@ -72,3 +72,4 @@ D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL_Test\obj\Debug\net8.0\ref
 D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL_Test\obj\Debug\net8.0\DAL_Celebrity_MSSQL_Test.pdb
 D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL_Test\obj\Debug\net8.0\DAL_Celebrity_MSSQL_Test.genruntimeconfig.cache
 D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL_Test\obj\Debug\net8.0\ref\DAL_Celebrity_MSSQL_Test.dll
+D:\Study\university\TRWP\lab6\Lab6\DAL_Celebrity_MSSQL_Test\obj\Debug\net8.0\DAL_Celebrity_MSSQL_Test.sourcelink.json

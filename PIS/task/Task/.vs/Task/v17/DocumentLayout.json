@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\PIS\\task\\Task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73003FD1-C5DF-4B46-9030-2D7081FD205C}|..\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj|d:\\study\\university\\pis\\task\\anc25_webapi_dll\\celebritiesapiauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9834D7-CBB5-4085-AE9F-DCF576A6847D}|..\\ANC31WebAPI\\ANC31WebAPI.csproj|d:\\study\\university\\pis\\task\\anc31webapi\\controllers\\celebritiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9834D7-CBB5-4085-AE9F-DCF576A6847D}|..\\ANC31WebAPI\\ANC31WebAPI.csproj|d:\\study\\university\\pis\\task\\anc31webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73003FD1-C5DF-4B46-9030-2D7081FD205C}|..\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj|d:\\study\\university\\pis\\task\\anc25_webapi_dll\\celebritiesaplconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73003FD1-C5DF-4B46-9030-2D7081FD205C}|..\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj|d:\\study\\university\\pis\\task\\anc25_webapi_dll\\celebritiesapiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73003FD1-C5DF-4B46-9030-2D7081FD205C}|..\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj|d:\\study\\university\\pis\\task\\anc25_webapi_dll\\celebrityapimaps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE8EFC7-FCFF-4DF8-9620-3ABF0A917657}|..\\DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\pis\\task\\dal_celebrity_mssql\\contexts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE8EFC7-FCFF-4DF8-9620-3ABF0A917657}|..\\DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\pis\\task\\dal_celebrity_mssql\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9834D7-CBB5-4085-AE9F-DCF576A6847D}|..\\ANC31WebAPI\\ANC31WebAPI.csproj|d:\\study\\university\\pis\\task\\anc31webapi\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73003FD1-C5DF-4B46-9030-2D7081FD205C}|..\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj|d:\\study\\university\\pis\\task\\anc25_webapi_dll\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE8EFC7-FCFF-4DF8-9620-3ABF0A917657}|..\\DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\pis\\task\\dal_celebrity_mssql\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73003FD1-C5DF-4B46-9030-2D7081FD205C}|..\\ANC25_WEBAPI_DLL\\ANC25_WEBAPI_DLL.csproj|d:\\study\\university\\pis\\task\\anc25_webapi_dll\\middlewareerrorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDE1BD7F-1507-4441-8ACE-CAE9AE0D1225}|..\\DAL_Celebrity\\DAL_Celebrity.csproj|d:\\study\\university\\pis\\task\\dal_celebrity\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE8EFC7-FCFF-4DF8-9620-3ABF0A917657}|..\\DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\pis\\task\\dal_celebrity_mssql\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE8EFC7-FCFF-4DF8-9620-3ABF0A917657}|..\\DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\pis\\task\\dal_celebrity_mssql\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D9834D7-CBB5-4085-AE9F-DCF576A6847D}|..\\ANC31WebAPI\\ANC31WebAPI.csproj|d:\\study\\university\\pis\\task\\anc31webapi\\anc31webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 379,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ANC31WebAPI\\Program.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\Program.cs",
+              "RelativeToolTip": "..\\ANC31WebAPI\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:24:30.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CelebritiesAPIAuth.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebritiesAPIAuth.cs",
+              "RelativeDocumentMoniker": "..\\ANC25_WEBAPI_DLL\\CelebritiesAPIAuth.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebritiesAPIAuth.cs",
+              "RelativeToolTip": "..\\ANC25_WEBAPI_DLL\\CelebritiesAPIAuth.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwFkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:26:06.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CelebritiesAPIServices.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebritiesAPIServices.cs",
+              "RelativeDocumentMoniker": "..\\ANC25_WEBAPI_DLL\\CelebritiesAPIServices.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebritiesAPIServices.cs",
+              "RelativeToolTip": "..\\ANC25_WEBAPI_DLL\\CelebritiesAPIServices.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:43:51.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\DAL_Celebrity_MSSQL\\Repository.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Repository.cs",
+              "RelativeToolTip": "..\\DAL_Celebrity_MSSQL\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:37:52.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CelebritiesController.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\Controllers\\CelebritiesController.cs",
+              "RelativeDocumentMoniker": "..\\ANC31WebAPI\\Controllers\\CelebritiesController.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\Controllers\\CelebritiesController.cs",
+              "RelativeToolTip": "..\\ANC31WebAPI\\Controllers\\CelebritiesController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAWwC4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:29:37.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CelebritiesAPlConfiguration.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebritiesAPlConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\ANC25_WEBAPI_DLL\\CelebritiesAPlConfiguration.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebritiesAPlConfiguration.cs",
+              "RelativeToolTip": "..\\ANC25_WEBAPI_DLL\\CelebritiesAPlConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:25:17.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contexts.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Contexts.cs",
+              "RelativeDocumentMoniker": "..\\DAL_Celebrity_MSSQL\\Contexts.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Contexts.cs",
+              "RelativeToolTip": "..\\DAL_Celebrity_MSSQL\\Contexts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:37:36.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Celebrities.config.json",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\Celebrities.config.json",
+              "RelativeDocumentMoniker": "..\\ANC25_WEBAPI_DLL\\Celebrities.config.json",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\Celebrities.config.json",
+              "RelativeToolTip": "..\\ANC25_WEBAPI_DLL\\Celebrities.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T21:47:20.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CelebrityAPIMaps.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebrityAPIMaps.cs",
+              "RelativeDocumentMoniker": "..\\ANC25_WEBAPI_DLL\\CelebrityAPIMaps.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\CelebrityAPIMaps.cs",
+              "RelativeToolTip": "..\\ANC25_WEBAPI_DLL\\CelebrityAPIMaps.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:24:22.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Celebrities.config.json",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\Celebrities.config.json",
+              "RelativeDocumentMoniker": "..\\ANC31WebAPI\\Celebrities.config.json",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\Celebrities.config.json",
+              "RelativeToolTip": "..\\ANC31WebAPI\\Celebrities.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T22:27:04.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\DAL_Celebrity\\IRepository.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity\\IRepository.cs",
+              "RelativeToolTip": "..\\DAL_Celebrity\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:23:33.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MiddlewareErrorHandler.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "RelativeDocumentMoniker": "..\\ANC25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "RelativeToolTip": "..\\ANC25_WEBAPI_DLL\\MiddlewareErrorHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:26:02.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Init.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Init.cs",
+              "RelativeDocumentMoniker": "..\\DAL_Celebrity_MSSQL\\Init.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Init.cs",
+              "RelativeToolTip": "..\\DAL_Celebrity_MSSQL\\Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:37:05.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\DAL_Celebrity_MSSQL\\IRepository.cs",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\IRepository.cs",
+              "RelativeToolTip": "..\\DAL_Celebrity_MSSQL\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:37:53.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\DAL_Celebrity_MSSQL\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\DAL_Celebrity_MSSQL\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\DAL_Celebrity_MSSQL\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T21:42:31.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ANC31WebAPI",
+              "DocumentMoniker": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\ANC31WebAPI.csproj",
+              "RelativeDocumentMoniker": "..\\ANC31WebAPI\\ANC31WebAPI.csproj",
+              "ToolTip": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\ANC31WebAPI.csproj",
+              "RelativeToolTip": "..\\ANC31WebAPI\\ANC31WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T21:30:41.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

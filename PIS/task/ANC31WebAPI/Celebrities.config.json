@@ -1,0 +1,14 @@
+ 
+  {
+    // Celebrities.config.json
+    "Celebrities": {
+      "PhotosRequestPath": "/Photos",
+      "PhotosFolder": "D:\\Study\\university\\TRWP\\lab6\\Photos",
+      "ConnectionString": "Data Source=DESKTOP-0M3BPJP;Initial Catalog=Temp;Integrated Security=True;Trust Server Certificate=True",
+      "ISO3166alpha2Path": "D:\\Study\\university\\PIS\\task\\ANC31WebAPI\\iso3166-1-alpha2-country-codes.json"
+    }
+  }
+
+
+
+

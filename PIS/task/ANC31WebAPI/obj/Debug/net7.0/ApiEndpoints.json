@@ -1,0 +1,381 @@
+[
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesAPIExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__10_0",
+    "RelativePath": "api/Celebrities/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DAL_Celebrity_MSSQL.Celebrity, DAL_Celebrity_MSSQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesAPIExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__10_4",
+    "RelativePath": "api/Celebrities/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "celebrity",
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesAPIExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__10_1",
+    "RelativePath": "api/Celebrities/{id:int:min(1)}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetCelebrityById"
+  },
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesAPIExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__10_3",
+    "RelativePath": "api/Celebrities/{id:int:min(1)}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesAPIExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__10_5",
+    "RelativePath": "api/Celebrities/{id:int:min(1)}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "celebrity",
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "Get401",
+    "RelativePath": "api/Celebrities/401",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "Post",
+    "RelativePath": "api/Celebrities/AddCelebrity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "celebrity",
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "Delete",
+    "RelativePath": "api/Celebrities/DelCelebrity/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "Get",
+    "RelativePath": "api/Celebrities/GetAllCelebrities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DAL_Celebrity_MSSQL.Celebrity, DAL_Celebrity_MSSQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "Get",
+    "RelativePath": "api/Celebrities/GetCelebrityById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "GetPhoto",
+    "RelativePath": "api/Celebrities/GetPhoto/{photo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "photo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "GetUserName",
+    "RelativePath": "api/Celebrities/GetUserName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesAPIExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__10_2",
+    "RelativePath": "api/Celebrities/Lifeevents/{id:int:min(1)}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC25_WEBAPI_DLL.CelebritiesAPIExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCelebrities\u003Eb__10_6",
+    "RelativePath": "api/Celebrities/photo/{fname}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "PostRegitration",
+    "RelativePath": "api/Celebrities/Registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pass",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "PostSignIn",
+    "RelativePath": "api/Celebrities/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pass",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "PostSignOut",
+    "RelativePath": "api/Celebrities/SignOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ANC31WebAPI.Controllers.CelebritiesController",
+    "Method": "Put",
+    "RelativePath": "api/Celebrities/UpdCelebrity/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "celebrity",
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DAL_Celebrity_MSSQL.Celebrity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

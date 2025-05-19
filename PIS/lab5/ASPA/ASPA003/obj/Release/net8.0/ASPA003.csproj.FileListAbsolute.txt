@@ -60,3 +60,4 @@ D:\Study\university\PIS\lab5\ASPA\ASPA003\obj\Release\net8.0\scopedcss\bundle\AS
 D:\Study\university\PIS\lab5\ASPA\ASPA003\obj\Release\net8.0\ASPA003.csproj.Up2Date
 D:\Study\university\PIS\lab5\ASPA\ASPA003\obj\Release\net8.0\ASPA003.genruntimeconfig.cache
 D:\Study\university\PIS\lab5\ASPA\ASPA003\obj\Release\net8.0\ref\ASPA003.dll
+D:\Study\university\PIS\lab5\ASPA\ASPA003\obj\Release\net8.0\ASPA003.sourcelink.json

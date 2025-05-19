@@ -3,7 +3,7 @@
     "info": {
       "title": "Телефонный справочник API",
       "version": "1.0.0",
-      "description": "API для управления записями в телефонном справочнике"
+      "description": "API для управления записями телефонного справочника"
     },
     "paths": {
       "/TS": {
@@ -16,8 +16,8 @@
               "content": {
                 "application/json": {
                   "example": [
-                    { "id": 1, "name": "Иван", "phone": "+375291234567" },
-                    { "id": 2, "name": "Анна", "phone": "+375337654321" }
+                    { "id": 1, "name": "John", "phone": "+375291234567" },
+                    { "id": 2, "name": "Jane", "phone": "+375295738593" }
                   ]
                 }
               }
@@ -37,7 +37,7 @@
                     "name": { "type": "string" },
                     "phone": { "type": "string" }
                   },
-                  "example": { "name": "Алексей", "phone": "+375295551122" }
+                  "example": { "name": "Anne", "phone": "+375293859275" }
                 }
               }
             }
@@ -48,7 +48,7 @@
         },
         "put": {
           "summary": "Обновить запись",
-          "description": "Корректирует данные телефона",
+          "description": "Обновляет данные записи справочника",
           "requestBody": {
             "required": true,
             "content": {
@@ -60,7 +60,7 @@
                     "name": { "type": "string" },
                     "phone": { "type": "string" }
                   },
-                  "example": { "id": 1, "name": "Иван Петров", "phone": "+375291234567" }
+                  "example": { "id": 2, "name": "Jane upd", "phone": "+375295783829" }
                 }
               }
             }
@@ -71,7 +71,7 @@
         },
         "delete": {
           "summary": "Удалить запись",
-          "description": "Удаляет телефон из справочника по ID",
+          "description": "Удаляет запись из справочника по id",
           "parameters": [
             {
               "name": "id",

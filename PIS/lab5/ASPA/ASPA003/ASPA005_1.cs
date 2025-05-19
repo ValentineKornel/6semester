@@ -1,19 +1,28 @@
 using DAL003;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+
 
 
 Repository.JSONFilename = "Celebrities.json";
+
+var app = builder.Build();
 using (IRepository repository = Repository.Create("Celebrities"))
 {
+    app.UseCookiePolicy();
+    app.UseAuthentication();
+    app.UseAuthorization();
+
     app.UseExceptionHandler("/Celebrities/Error");
 
     app.MapGet("/Celebrities", () => repository.getAllCelebrities());
-    app.MapGet("/Celebrities/{id:int}", (int id) =>
+    app.MapGet("/Celebrities/{id:int}", (int id) => 
     {
         Celebrity? celebrity = repository.getCelebrityById(id);
         if (celebrity == null) throw new FoundByIdException($"Celebrity Id = {id}");

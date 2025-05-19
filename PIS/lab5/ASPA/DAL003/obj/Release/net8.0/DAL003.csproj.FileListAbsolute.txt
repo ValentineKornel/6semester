@@ -22,3 +22,4 @@ D:\Study\university\PIS\lab5\ASPA\DAL003\obj\Release\net8.0\DAL003.dll
 D:\Study\university\PIS\lab5\ASPA\DAL003\obj\Release\net8.0\refint\DAL003.dll
 D:\Study\university\PIS\lab5\ASPA\DAL003\obj\Release\net8.0\DAL003.pdb
 D:\Study\university\PIS\lab5\ASPA\DAL003\obj\Release\net8.0\ref\DAL003.dll
+D:\Study\university\PIS\lab5\ASPA\DAL003\obj\Release\net8.0\DAL003.sourcelink.json

@@ -17,14 +17,16 @@ internal class Program
         builder.Services.AddScoped<IRepostory, Repository>((IServiceProvider p) =>
         {
             CelebritiesConfig config = p.GetService<IOptions<CelebritiesConfig>>().Value;
+            Init.Execute(delete: true, create: true);
             return new Repository(config.ConnectionString);
         });
 
         var app = builder.Build();
+        app.UseMiddleware<ErrorHandlerMiddleware>();
         var config = app.Services.GetService<IOptions<CelebritiesConfig>>().Value;
 
         
-        app.UseExceptionHandler("/Error");
+        //app.UseExceptionHandler("/Error");
         app.UseDefaultFiles();
         app.UseStaticFiles();
         app.UseStaticFiles(new StaticFileOptions
@@ -35,8 +37,10 @@ internal class Program
         
 
         var celebrities = app.MapGroup("/api/Celebrities");
-        
-        celebrities.MapGet("/", (IRepostory repo) => repo.GetAllCelebrities());
+
+        //celebrities.MapGet("/", (IRepostory repo) => { throw new Exception(); repo.GetAllCelebrities(); });
+
+        celebrities.MapGet("/", (IRepostory repo) =>  repo.GetAllCelebrities());
 
         celebrities.MapGet("/{id:int:min(1)}", (IRepostory repo, int id) => repo.GetCelebrityById(id));
 
@@ -76,18 +80,18 @@ internal class Program
 
         lifeevents.MapPut("/{id:int:min(1)}", (IRepostory repo, int id, Lifeevent lifeevent) => repo.UpdateLifeevent(id, lifeevent));
 
-        app.Map("/Error", (HttpContext ctx) =>
-        {
-            Exception? ex = ctx.Features.Get<IExceptionHandlerFeature>()?.Error;
-            IResult rc = Results.Problem(detail: ex.Message, instance: app.Environment.EnvironmentName, title: "ASPA004", statusCode: 500);
+        //app.Map("/Error", (HttpContext ctx) =>
+        //{
+        //    Exception? ex = ctx.Features.Get<IExceptionHandlerFeature>()?.Error;
+        //    IResult rc = Results.Problem(detail: ex.Message, instance: app.Environment.EnvironmentName, title: "ASPA004", statusCode: 500);
 
-            if (ex != null)
-            {
-                if (ex is FileNotFoundException) rc = Results.Problem(title: "ASPA004", detail: ex.Message, instance: app.Environment.EnvironmentName, statusCode: 500);
-                if (ex is BadHttpRequestException) rc = Results.BadRequest(ex.Message);
-            }
-            return rc;
-        });
+        //    if (ex != null)
+        //    {
+        //        if (ex is FileNotFoundException) rc = Results.Problem(title: "ASPA004", detail: ex.Message, instance: app.Environment.EnvironmentName, statusCode: 500);
+        //        if (ex is BadHttpRequestException) rc = Results.BadRequest(ex.Message);
+        //    }
+        //    return rc;
+        //});
 
         app.MapFallbackToFile("index.html");
 

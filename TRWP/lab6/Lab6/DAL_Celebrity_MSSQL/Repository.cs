@@ -11,7 +11,9 @@ namespace DAL_Celebrity_MSSQL
     {
         Context context;
         public Repository() { this.context = new Context(); }
-        public Repository(string connectionString) { this.context = new Context(connectionString); }
+        public Repository(string connectionString) {
+            this.context = new Context(connectionString); 
+        }
         public static IRepostory Create() { return new Repository(); }
         public static IRepostory Create(string connectionString) { return new Repository(connectionString); }
 

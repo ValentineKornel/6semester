@@ -1,7 +1,7 @@
 import express from 'express';
 import crypto from 'crypto';
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 
 app.set('view engine', 'ejs');
 app.use(express.json());

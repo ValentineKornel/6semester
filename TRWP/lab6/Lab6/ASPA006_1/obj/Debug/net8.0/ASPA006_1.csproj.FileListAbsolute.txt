@@ -85,3 +85,4 @@ D:\Study\university\TRWP\lab6\Lab6\ASPA006_1\obj\Debug\net8.0\ASPA006_1.pdb
 D:\Study\university\TRWP\lab6\Lab6\ASPA006_1\obj\Debug\net8.0\ASPA006_1.genruntimeconfig.cache
 D:\Study\university\TRWP\lab6\Lab6\ASPA006_1\obj\Debug\net8.0\ref\ASPA006_1.dll
 D:\Study\university\TRWP\lab6\Lab6\ASPA006_1\bin\Debug\net8.0\ASPA006_1.staticwebassets.runtime.json
+D:\Study\university\TRWP\lab6\Lab6\ASPA006_1\obj\Debug\net8.0\ASPA006_1.sourcelink.json

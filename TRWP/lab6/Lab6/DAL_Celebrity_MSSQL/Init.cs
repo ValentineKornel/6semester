@@ -9,8 +9,8 @@ namespace DAL_Celebrity_MSSQL
 {
     public class Init
     {
-        static string connstring = @"Data Source = DESKTOP - 0M3BPJP;Initial Catalog = Temp;" +
-                                    @"Integrated Security = True; Trust Server Certificate=True";
+        static string connstring = @"Data Source=DESKTOP-0M3BPJP;Initial Catalog=Temp;" +
+                                    @"Integrated Security=True; Trust Server Certificate=True";
          
         public Init() { }
         public Init(string conn) { connstring = conn; }

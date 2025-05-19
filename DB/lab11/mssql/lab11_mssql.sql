@@ -1,3 +1,5 @@
+
+
 CREATE FUNCTION GET_EXECUROTS_AND_TASKS(
     @StartDate DATE,
     @EndDate DATE
