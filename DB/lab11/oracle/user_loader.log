@@ -1,0 +1,60 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Tue May 20 07:21:32 2025
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   user_loader.ctl
+Character Set UTF8 specified for all input.
+
+Data File:      import_data.txt
+  Bad File:     import_data.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table USER_TEMP, loaded from every logical record.
+Insert option in effect for this table: REPLACE
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+NAME                                 NEXT     *   ,       CHARACTER            
+    SQL string for column : "UPPER(:NAME)"
+SURNAME                              NEXT     *   ,       CHARACTER            
+    SQL string for column : "UPPER(:SURNAME)"
+EMAIL                                NEXT     *   ,       CHARACTER            
+    SQL string for column : "UPPER(:EMAIL)"
+ROLE                                 NEXT     *   ,       CHARACTER            
+    SQL string for column : "UPPER(:ROLE)"
+SALARY                               NEXT     *   ,       CHARACTER            
+    SQL string for column : "ROUND(:SALARY, 1)"
+
+
+Table USER_TEMP:
+  4 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 387000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             4
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Tue May 20 07:21:32 2025
+Run ended on Tue May 20 07:21:33 2025
+
+Elapsed time was:     00:00:00.50
+CPU time was:         00:00:00.07
