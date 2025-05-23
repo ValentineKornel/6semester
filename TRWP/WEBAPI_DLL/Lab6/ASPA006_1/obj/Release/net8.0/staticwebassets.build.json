@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "naiapeWmKrGfOP8S2u3OScADmVB4ugKAjJfMmohJeGw=",
+  "Source": "WEBAPI_DLL",
+  "BasePath": "_content/WEBAPI_DLL",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WEBAPI_DLL\\wwwroot",
+      "Source": "WEBAPI_DLL",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_DLL",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\css\\Celebrities.css",
+      "SourceId": "WEBAPI_DLL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_DLL",
+      "RelativePath": "css/Celebrities.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Celebrities.css"
+    },
+    {
+      "Identity": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\index.html",
+      "SourceId": "WEBAPI_DLL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_DLL",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+      "SourceId": "WEBAPI_DLL",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\",
+      "BasePath": "_content/WEBAPI_DLL",
+      "RelativePath": "js/Celebrities.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Celebrities.js"
+    }
+  ]
+}

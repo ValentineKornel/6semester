@@ -1,0 +1,42 @@
+﻿@using DAL_Celebrity_MSSQL;
+@using System.Globalization;
+@using ASPA008_1.Helpers;
+@model ASPA008_1.Controllers.CelebritiesController.HumanModel;
+
+
+@{
+    Layout = "_CelebritiesLayout.cshtml";
+    Celebrity celebrity = @Model.celebrity;
+    Dictionary<string, string> references = @Model.references ?? new Dictionary<string, string>();
+    string photopath = $"{@Model.photosrequestpath}/{celebrity.ReqPhotoPath}";
+}
+
+@section subhead
+{
+    <div style="display: flex;">
+        <div class="celebrity-box">
+            @Html.CelebrityPhoto(celebrity.Id, celebrity.FullName, photopath)
+        </div>
+        <div class="celebrity-box">
+            <h2>@celebrity.FullName</h2>
+            @foreach(Lifeevent ev in @Model.lifeevents)
+            {
+                <p>@ev.Date?.ToString("dd.MM.yyyy") @ev.Description</p>
+            }
+            @foreach(KeyValuePair<string, string> info in references)
+            {
+                <a id="@info.Key" href="@info.Value" target="_blank" hidden>@info.Key</a>
+                <button onclick="document.getElementById('@info.Key').click();">@info.Key</button>
+            }
+        </div>
+        <div class="celebrity-box">
+            <a asp-action="DeleteForm" asp-controller="Celebrities" asp-route-id="@celebrity.Id" class="btn btn-primary">Delete</a>
+            <a asp-action="EditForm" asp-controller="Celebrities" asp-route-id="@celebrity.Id" class="btn btn-primary">Edit</a>
+        </div>
+    </div>
+}
+
+@section foot
+{
+
+}

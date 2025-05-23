@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering;
+@inject ASPA006_1.CelebrityAPIExtentions.CountryCodes Countries;
+
+@{
+    //Layout = "_CelebritiesLayout.cshtml";
+
+    SelectList slcountries = new SelectList(Countries, "code", "countryLabel");
+}
+
+@using (Html.BeginForm("Save", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="row">
+        @Html.TextBox("fullname", "", new { @class = "col-8", placeholder = "Celebrity name", required = "true" })
+        @Html.DropDownList("Nationality", slcountries, new { @class = "col-4" })
+    </div>
+    <div class="row">
+        <input id="upload" name="upload" type="file" style="display: none" accept="image/*" onchange="onChange(this)" required />
+        <button class="col-12" id="butupload" type="button" onclick="document.getElementById('upload').click()"> Upload Photo </button>
+    </div>
+    <div class="row">
+        <button class="col-6" type="submit"> OK </button>
+        <button class="col-6" type="reset"> CANCEL </button>
+    </div>
+}
+<script>
+    function onChange(e) {
+        const button = document.getElementById("butupload");
+        if (e.value == '') button.innerText = "Upload Photo";
+        else button.innerText = e.value;
+    }
+</script>

@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering;
+@using ASPA008_1.Helpers;
+@inject ASPA006_1.CelebrityAPIExtentions.CountryCodes Countries;
+@model ASPA008_1.Controllers.CelebritiesController.EditModel
+@{
+    Layout = "_CelebritiesLayout.cshtml";
+}
+@section subhead {
+}
+
+<div style="display: flex">
+    <div class="celebrity-box">
+        @Html.CelebrityPhoto(0, Model.celebrity.FullName, $"{Model.photosrequestpath}/{Model.celebrity.ReqPhotoPath}")
+    </div>
+    <div class="celebrity-box">
+    </div>
+
+    @using (Html.BeginForm("DeleteConfirm", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="hidden" name="Id" value="@Model.celebrity.Id" />
+        <div class="row">
+            @Html.TextBox("FullName", Model.celebrity.FullName, new { @class = "col-8", @readonly = "readonly" })
+            @Html.DropDownList("Nationality", new SelectList(new[] {
+        new { Value = Model.celebrity.Nationality, Text = Model.celebrity.Nationality }
+        }, "Value", "Text"), new { @class = "col-4", disabled = "disabled" })
+
+        </div>
+        <div class="row">
+            <button class="col-6" type="submit"> DELETE CONFIRMATION </button>
+            <a asp-action="Human" asp-controller="Celebrities" asp-route-id="@Model.celebrity.Id"><button class="col-6" type="button">CANCEL</button></a>
+        </div>
+    }
+
+</div>
+
+@section foot {
+}

@@ -1,0 +1,36 @@
+﻿@using DAL_Celebrity_MSSQL;
+@using ASPA008_1.Helpers;
+@model ASPA008_1.Controllers.CelebritiesController.IndexModel
+@{
+    Layout = "_CelebritiesLayout";
+    int h = 150, w = 0;
+}
+
+@section subhead{
+    <h2>Celebrities/Index</h2>
+}
+
+@* <img id = "0"
+    title = "new celebrity"
+     src="@Model.PhotoRequestPath/NewCelebrity.png"
+    onload = "onphotoload(this, @h, @w)"
+    onclick = "onphotoclick(0)"
+/> *@
+
+@Html.CelebrityPhoto(0, "New Celebrity", $"{Model.PhotoRequestPath}/{"NewCelebrity.png"}")
+
+@foreach(Celebrity c in Model.Celebrities)
+{
+    @Html.CelebrityPhoto(c.Id, c.FullName, $"{Model.PhotoRequestPath}/{c.ReqPhotoPath}");
+@*     <img id="@c.Id"
+         title="@c.FullName"
+         src="@Model.PhotoRequestPath/@c.ReqPhotoPath"
+         onload="onPhotoLoad(this, @h, @w)"
+         onclick="onPhotoClick(@c.Id)" /> *@
+    
+}
+
+@section foot {
+    @*<h2>FOOT</h2>*@
+}
+

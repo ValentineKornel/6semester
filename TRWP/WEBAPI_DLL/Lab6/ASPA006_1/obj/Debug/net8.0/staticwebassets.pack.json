@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\css\\Celebrities.css",
+      "PackagePath": "staticwebassets\\css\\Celebrities.css"
+    },
+    {
+      "Id": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+      "PackagePath": "staticwebassets\\js\\Celebrities.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEBAPI_DLL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEBAPI_DLL.props",
+      "PackagePath": "build\\WEBAPI_DLL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEBAPI_DLL.props",
+      "PackagePath": "buildMultiTargeting\\WEBAPI_DLL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEBAPI_DLL.props",
+      "PackagePath": "buildTransitive\\WEBAPI_DLL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

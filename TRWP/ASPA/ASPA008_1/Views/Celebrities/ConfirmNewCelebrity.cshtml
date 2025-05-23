@@ -1,0 +1,35 @@
+﻿@using ASPA008_1.Helpers;
+@model ASPA008_1.Controllers.CelebritiesController.ConfirmModel;
+@{
+    Layout = "_CelebritiesLayout.cshtml";
+}
+
+@section subhead {}
+
+<div style="display: flex">
+    <div class="celebrity-box">
+        @Html.CelebrityPhoto(0, Model.FullName, $"{Model.photosrequestpath}/{Model.PhotoFileName}")
+    </div>
+    <div class="celebrity-box">
+    </div>
+
+    @using (Html.BeginForm("AddConfirmed", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="row">
+            @Html.TextBox("fullname", "", new { @class = "col-8", value = "@Model.FullName", @readonly = "readonly" })
+            @Html.DropDownList("Nationality", new SelectList(new[] {
+                new { Value = Model.Nationality, Text = Model.Nationality }
+                }, "Value", "Text"), new { @class = "col-4", disabled = "disabled" })
+            @Html.Hidden("Nationality", Model.Nationality)
+
+            <input type="hidden" name="PhotoFileName" value="@Model.PhotoFileName" />
+        </div>
+        <div class="row">
+            <button class="col-6" type="submit"> CONFIRM </button>
+            <a asp-action="NewHumanForm"><button class="col-6" type="button">Cancel</button></a>
+        </div>
+    }
+
+</div>
+
+@section foot {}

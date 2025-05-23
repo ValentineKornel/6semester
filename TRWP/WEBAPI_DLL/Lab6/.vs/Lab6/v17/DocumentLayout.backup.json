@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\webapi_dll.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\webapi_dll.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\celebrityapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\celebrityapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\webapi_dll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\webapi_dll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\dal_celebrity_mssql\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\dal_celebrity_mssql\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFCDC5AD-A735-4A87-A5F0-C289999C6E16}|DAL_Celebrity\\DAL_Celebrity.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\dal_celebrity\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFCDC5AD-A735-4A87-A5F0-C289999C6E16}|DAL_Celebrity\\DAL_Celebrity.csproj|solutionrelative:dal_celebrity\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\dal_celebrity_mssql\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\dal_celebrity_mssql\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60BC7A0-2705-407F-91CC-5611A9922697}|DAL_Celebrity_MSSQL\\DAL_Celebrity_MSSQL.csproj|solutionrelative:dal_celebrity_mssql\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12D69683-E3FB-457D-A2CE-1A1DCD6B8545}|DAL_Celebrity_MSSQL_Test\\DAL_Celebrity_MSSQL_Test.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\dal_celebrity_mssql_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12D69683-E3FB-457D-A2CE-1A1DCD6B8545}|DAL_Celebrity_MSSQL_Test\\DAL_Celebrity_MSSQL_Test.csproj|solutionrelative:dal_celebrity_mssql_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\errorhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\celebritiesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\wwwroot\\js\\celebrities.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\wwwroot\\js\\celebrities.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\celebrities.config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|d:\\study\\university\\trwp\\webapi_dll\\lab6\\aspa006_1\\wwwroot\\css\\celebrities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0DFC0431-2CA7-4148-B3C3-0EFC187FE5B8}|ASPA006_1\\WEBAPI_DLL.csproj|solutionrelative:aspa006_1\\wwwroot\\css\\celebrities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 379,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WEBAPI_DLL.csproj",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\WEBAPI_DLL.csproj",
+              "RelativeDocumentMoniker": "ASPA006_1\\WEBAPI_DLL.csproj",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\WEBAPI_DLL.csproj",
+              "RelativeToolTip": "ASPA006_1\\WEBAPI_DLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T10:27:30.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WEBAPI_DLL",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\WEBAPI_DLL.csproj",
+              "RelativeDocumentMoniker": "ASPA006_1\\WEBAPI_DLL.csproj",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\WEBAPI_DLL.csproj",
+              "RelativeToolTip": "ASPA006_1\\WEBAPI_DLL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-23T10:27:41.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorHandlerMiddleware.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\ErrorHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "ASPA006_1\\ErrorHandlerMiddleware.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\ErrorHandlerMiddleware.cs",
+              "RelativeToolTip": "ASPA006_1\\ErrorHandlerMiddleware.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T07:19:49.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\Context.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Context.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\Context.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:53:06.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CelebrityAPI.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\CelebrityAPI.cs",
+              "RelativeDocumentMoniker": "ASPA006_1\\CelebrityAPI.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\CelebrityAPI.cs",
+              "RelativeToolTip": "ASPA006_1\\CelebrityAPI.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwF4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:59:55.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity\\IRepository.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity\\IRepository.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity\\IRepository.cs",
+              "RelativeToolTip": "DAL_Celebrity\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:30:30.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CelebritiesConfig.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\CelebritiesConfig.cs",
+              "RelativeDocumentMoniker": "ASPA006_1\\CelebritiesConfig.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\CelebritiesConfig.cs",
+              "RelativeToolTip": "ASPA006_1\\CelebritiesConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:52:17.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "ASPA006_1\\wwwroot\\index.html",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\index.html",
+              "RelativeToolTip": "ASPA006_1\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-18T05:39:31.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Celebrities.js",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+              "RelativeDocumentMoniker": "ASPA006_1\\wwwroot\\js\\Celebrities.js",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\js\\Celebrities.js",
+              "RelativeToolTip": "ASPA006_1\\wwwroot\\js\\Celebrities.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-18T05:39:20.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\Repository.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Repository.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\Repository.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:54:25.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\IRepository.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\IRepository.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\IRepository.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:31:30.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Init.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\Init.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL\\Init.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL\\Init.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL\\Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T17:53:19.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Celebrities.config.json",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\Celebrities.config.json",
+              "RelativeDocumentMoniker": "ASPA006_1\\Celebrities.config.json",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\Celebrities.config.json",
+              "RelativeToolTip": "ASPA006_1\\Celebrities.config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T19:53:08.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL_Test\\Program.cs",
+              "RelativeDocumentMoniker": "DAL_Celebrity_MSSQL_Test\\Program.cs",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\DAL_Celebrity_MSSQL_Test\\Program.cs",
+              "RelativeToolTip": "DAL_Celebrity_MSSQL_Test\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T19:32:09.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Celebrities.css",
+              "DocumentMoniker": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\css\\Celebrities.css",
+              "RelativeDocumentMoniker": "ASPA006_1\\wwwroot\\css\\Celebrities.css",
+              "ToolTip": "D:\\Study\\university\\TRWP\\WEBAPI_DLL\\Lab6\\ASPA006_1\\wwwroot\\css\\Celebrities.css",
+              "RelativeToolTip": "ASPA006_1\\wwwroot\\css\\Celebrities.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-18T14:08:51.896Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

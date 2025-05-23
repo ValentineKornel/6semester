@@ -1,0 +1,49 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering;
+@using ASPA008_1.Helpers;
+@inject ASPA006_1.CelebrityAPIExtentions.CountryCodes Countries;
+@model ASPA008_1.Controllers.CelebritiesController.EditModel;
+@{
+    Layout = "_CelebritiesLayout.cshtml";
+    SelectList slcountries = new SelectList(Countries, "code", "countryLabel", Model.celebrity.Nationality);
+}
+
+@section subhead {
+}
+
+<div style="display: flex">
+    <div class="celebrity-box">
+        @Html.CelebrityPhoto(Model.celebrity.Id, Model.celebrity.FullName, $"{Model.photosrequestpath}/{Model.celebrity.ReqPhotoPath}")
+    </div>
+    <div class="celebrity-box">
+        @using (Html.BeginForm("EditConfirmed", "Celebrities", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <input type="hidden" name="Id" value="@Model.celebrity.Id" />
+            <input type="hidden" name="PhotoFileName" value="@Model.celebrity.ReqPhotoPath" />
+
+            <div class="row">
+                @Html.TextBox("FullName", Model.celebrity.FullName, new { @class = "col-8", required = "true" })
+                @Html.DropDownList("Nationality", slcountries, new { @class = "col-4" })
+            </div>
+            <div class="row">
+                <input id="upload" name="upload" type="file" style="display: none" accept="image/*" onchange="onChange(this)" />
+                <button class="col-12" id="butupload" type="button" onclick="document.getElementById('upload').click()"> Upload Photo </button>
+            </div>
+            <div class="row">
+                <button class="col-6" type="submit"> OK </button>
+                <a asp-action="Human" asp-controller="Celebrities" asp-route-id="@Model.celebrity.Id"><button class="col-6" type="button">CANCEL</button></a>
+            </div>
+        }
+        <script>
+            function onChange(e) {
+                const button = document.getElementById("butupload");
+                if (e.value == '') button.innerText = "Upload Photo";
+                else button.innerText = e.value;
+            }
+        </script>
+    </div>
+</div>
+
+
+
+@section foot {
+}
