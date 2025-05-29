@@ -1,0 +1,83 @@
+
+--3
+db.executors.insertMany([
+  { _id: 1, name: "Иванов И.И.", position: "Инженер", department: "ИТ", experience: 3 },
+  { _id: 2, name: "Петров П.П.", position: "Аналитик", department: "Анализ", experience: 5 },
+  { _id: 3, name: "Сидоров С.С.", position: "Программист", department: "ИТ", experience: 2 },
+  { _id: 4, name: "Сидоров С.С. 2", position: "Программист", department: "ИТ", experience: 2 }
+])
+
+
+db.assignments.insertMany([
+  { title: "Обновить сервер", deadline: ISODate("2025-06-01"), status: "в процессе", executor_id: 1, tags: ["инфраструктура", "важно"] },
+  { title: "Проанализировать отчёт", deadline: ISODate("2025-05-30"), status: "выполнено", executor_id: 2 },
+  { title: "Разработка API", deadline: ISODate("2025-06-10"), status: "не начато", executor_id: 3, tags: ["разработка", "API"] }
+])
+
+
+db.executors.updateOne({ name: "Сидоров С.С." }, { $set: { experience: 3 } })
+db.assignments.updateMany({}, { $set: { updated: true } })
+
+
+--4
+// deadline позже 1 июня
+db.assignments.find({ deadline: { $gt: ISODate("2025-06-01") } })
+
+// У задач есть тэг "разработка"
+db.assignments.find({ tags: { $in: ["разработка"] } })
+
+// Поле tags существует
+db.assignments.find({ tags: { $exists: true } })
+
+// Поле deadline – это тип date
+db.assignments.find({ deadline: { $type: "date" } })
+
+// Название поручения начинается на "Раз"
+db.assignments.find({ title: { $regex: "^Раз" } })
+
+
+--5
+// Только название и статус
+db.assignments.find({}, { title: 1, status: 1, _id: 0 })
+
+
+--6
+db.executors.countDocuments()
+
+db.executors.countDocuments({ experience: { $gt: 3 } })
+
+
+--7
+db.assignments.find().limit(2)
+
+db.assignments.find().skip(1).limit(2)
+
+--8
+db.executors.distinct("position")
+
+--9
+// Кол-во поручений по статусу
+db.assignments.aggregate([
+  { $group: { _id: "$status", count: { $sum: 1 } } }
+])
+
+// Средний опыт исполнителей
+db.executors.aggregate([
+  { $group: { _id: null, avgExperience: { $avg: "$experience" } } }
+])
+
+-10
+db.assignments.aggregate([
+  { $match: { updated: true } }, // непустой фильтр
+  { $group: {
+      _id: { status: "$status", executor: "$executor_id" },
+      total: { $sum: 1 }
+  }}
+])
+
+db.assignments.aggregate([
+  { $group: {
+      _id: { status: "$status", executor: "$executor_id" },
+      total: { $sum: 1 }
+  }}
+])
